@@ -67,16 +67,16 @@ export default function HomePage() {
           </div>
         </div>
 
-        <Separator className="border-t-2" />
+        <Separator className="border-t-2"  style={{marginTop:-20}}/>
 
         {/* <h1 className="bg-purple-100 dark:bg-purple-400 p-4 border-l-4 border-purple-600 dark:border-purple-800 rounded" style={{ borderRadius:10}}>
          */}
-         <h1 style={{fontSize:30}}>
+         <h1 style={{fontSize:30 , marginTop:-30}}>
           🔍 Valuable Informative Articles Section
         </h1>
 
         {[1, 2, 3].map((_, i) => (
-          <div key={i} className="border p-4 rounded-lg  flex flex-col space-y-4">
+          <div key={i} className="border p-4 rounded-lg  flex flex-col space-y-4" style={{marginTop:-30}}>
             <div className="flex justify-between items-center text-sm">
               <h3 className="font-normal underline">PHP SCRIPT TO HANDLE TELEGRAM BOT WEBHOOKS WITH REAL-TIME UPDATES</h3>
               <div className="text-muted-foreground">
