@@ -12,16 +12,6 @@ import { AlertCircleIcon } from 'lucide-react';
 export default function HomePage() {
 
 
-
-  // const socialIcons = [
-  //   { icon: <FaGithub />, url: 'https://github.com/0xabhikr', label: 'GitHub' },
-  //   { icon: <FaInstagram />, url: 'https://instagram.com/0xabhikr', label: 'Instagram' },
-  //   { icon: <FaTelegram />, url: 'https://t.me/AbhikrX', label: 'Telegram' },
-  //   { icon: <FaLinkedin />, url: 'https://www.linkedin.com/in/0xabhikr', label: 'LinkedIn' },
-  //   { icon: <FaXTwitter />, url: 'https://x.com/Abhikr_X', label: 'Twitter' },
-  //   { icon: <FaEnvelope />, url: 'mailto:abhikr6714@outlook.com', label: 'Email' },
-  // ];
-
   return (
 
     <div className="p-4 space-y-6">
