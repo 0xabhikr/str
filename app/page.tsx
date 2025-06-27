@@ -97,44 +97,73 @@ export default function HomePage() {
 
         </div>
 
-        <Separator className="border-t-2" style={{ marginTop: -20 }} />
+        <Separator className="border-t-2" style={{ marginTop: -30 }} />
 
         {/* <h1 className="bg-purple-100 dark:bg-purple-400 p-4 border-l-4 border-purple-600 dark:border-purple-800 rounded" style={{ borderRadius:10}}>
          */}
-        <h1 style={{ fontSize: 30, marginTop: -30 }}>
+        <h1 style={{ fontSize: 30, marginTop: -25 }}>
           🔍 Valuable Informative Articles Section
         </h1>
 
-        {[1, 2, 3].map((_, i) => (
-          <div key={i} className="border p-4 rounded-lg  flex flex-col space-y-4" style={{ marginTop: -30 }}>
-            <div className="flex justify-between items-center text-sm">
-              <h3 className="font-normal underline">PHP SCRIPT TO HANDLE TELEGRAM BOT WEBHOOKS WITH REAL-TIME UPDATES</h3>
-              <div className="text-muted-foreground">
-                <i className="fa-solid fa-calendar-days mr-2" />10 June, 2025 | 10:16 PM
-              </div>
-            </div>
-            <div className="flex flex-col md:flex-row gap-4">
-              <div className="md:w-1/2">
-                <p className="text-sm">
-                  Think of a webhook as a way for Telegram to “ping” your server every time something
-                  happens — like when someone sends a message to your bot. Instead of you asking Telegram every few seconds,
-                  “Hey, got anything new?”, Telegram just sends the update to your server automatically.
-                  <br /><br />It’s fast, efficient, and real-time.
-                </p>
-              </div>
-              <div className="md:w-1/2">
-                <Image
-                  src="https://res.cloudinary.com/dgu3gae6k/image/upload/v1750616297/bgbanner_mscnxc.jpg"
-                  alt="Webhook Illustration"
-                  width={400}
-                  height={200}
-                  className="object-cover h-32 w-full md:h-auto md:clip-webhook"
-                  style={{ borderRadius: 10 }}
-                />
-              </div>
+        <div className="border p-4 rounded-lg flex flex-col space-y-4" style={{ marginTop: -30 }}>
+          <div className="flex justify-between items-center text-sm">
+            <h3 className="font-normal underline">PHP SCRIPT TO HANDLE TELEGRAM BOT WEBHOOKS WITH REAL-TIME UPDATES</h3>
+            <div className="text-muted-foreground">
+              <i className="fa-solid fa-calendar-days mr-2" />
+              10 June, 2025 | 10:16 PM
             </div>
           </div>
-        ))}
+          <div className="flex flex-col md:flex-row gap-4">
+            <div className="md:w-1/2">
+              <p className="text-sm">
+                Think of a webhook as a way for Telegram to “ping” your server every time something happens — like when someone sends a message to your bot.
+                Instead of you asking Telegram every few seconds, “Hey, got anything new?”, Telegram just sends the update to your server automatically.
+                <br /><br />
+                It’s fast, efficient, and real-time.
+              </p>
+            </div>
+            <div className="md:w-1/2">
+              <Image
+                src="https://res.cloudinary.com/dgu3gae6k/image/upload/v1750616297/bgbanner_mscnxc.jpg"
+                alt="Webhook Illustration"
+                width={400}
+                height={200}
+                className="object-cover h-32 w-full md:h-auto rounded-lg"
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+          </div>
+        </div>
+        <div className="border p-4 rounded-lg flex flex-col space-y-4" style={{ marginTop: -30 }}>
+          <div className="flex justify-between items-center text-sm">
+            <h3 className="font-normal underline">PHP SCRIPT TO HANDLE TELEGRAM BOT WEBHOOKS WITH REAL-TIME UPDATES</h3>
+            <div className="text-muted-foreground">
+              <i className="fa-solid fa-calendar-days mr-2" />
+              10 June, 2025 | 10:16 PM
+            </div>
+          </div>
+          <div className="flex flex-col md:flex-row gap-4">
+            <div className="md:w-1/2">
+              <p className="text-sm">
+                Think of a webhook as a way for Telegram to “ping” your server every time something happens — like when someone sends a message to your bot.
+                Instead of you asking Telegram every few seconds, “Hey, got anything new?”, Telegram just sends the update to your server automatically.
+                <br /><br />
+                It’s fast, efficient, and real-time.
+              </p>
+            </div>
+            <div className="md:w-1/2">
+              <Image
+                src="https://res.cloudinary.com/dgu3gae6k/image/upload/v1750616297/bgbanner_mscnxc.jpg"
+                alt="Webhook Illustration"
+                width={400}
+                height={200}
+                className="object-cover h-32 w-full md:h-auto rounded-lg"
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+          </div>
+        </div>
+
       </Card>
     </div>
   );
