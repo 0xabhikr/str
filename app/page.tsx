@@ -5,6 +5,17 @@ import Image from 'next/image';
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import { Card } from "@/components/ui/card";
 import { Separator } from '@/components/ui/separator';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faGithub,
+  faInstagram,
+  faTelegram,
+  faLinkedin,
+  faXTwitter,
+} from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+
+
 
 import { AlertCircleIcon } from 'lucide-react';
 
@@ -35,11 +46,11 @@ export default function HomePage() {
         </Popover>
       </div> */}
 
-      <Alert variant="destructive" style={{ marginTop:-10}}>
+      <Alert variant="destructive" style={{ marginTop: -10 }}>
         <AlertCircleIcon />
 
         <AlertDescription >
-          This site is under development 
+          This site is under development
         </AlertDescription>
       </Alert>
 
@@ -49,34 +60,53 @@ export default function HomePage() {
           <h2 className="text-xl  " >✨ Daily Spark of Thought</h2>
         </div>
 
-        <Separator className="border-t-2 mt-2" style={{marginTop:-25}}/>
+        <Separator className="border-t-2 mt-2" style={{ marginTop: -25 }} />
 
-        <div style={{marginTop:-25}} >
-          <em style={{marginTop:0}} >“Sometimes a single thought is all it takes to change your day.”</em>
+        <div style={{ marginTop: -25 }} >
+          <em style={{ marginTop: 0 }} >“Sometimes a single thought is all it takes to change your day.”</em>
         </div>
 
-        <ul className="list-disc pl-8 space-y-2 text-sm" style={{marginTop:-30}}>
+        <ul className="list-disc pl-8 space-y-2 text-sm" style={{ marginTop: -30 }}>
           <li>Embrace the present moment. Yesterday is gone, and tomorrow isn't guaranteed. Find joy and purpose in what you're doing right now.</li>
           <li>A small act of kindness can create a ripple effect. You never know how much a simple compliment or helping hand might brighten someone's day, and in turn, your own.</li>
           <li>Growth begins at the edge of your comfort zone. Don't be afraid to try something new or challenge yourself today. That's where true learning and progress happen.</li>
         </ul>
 
-        <div className="space-y-2" style={{marginTop:-30}}>
-          <span className="" style={{fontSize:20}}>Social Networks:</span>
-          <div className="flex flex-wrap gap-3 items-center">
+        <div className="space-y-2" style={{ marginTop: -30, display: 'flex' }}>
+          <span className="" style={{ fontSize: 20, paddingRight: 10 }}>Social Networks:</span>
+          <div className="social-icons flex gap-4 text-xl">
+            <a href="https://github.com/0xabhikr" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
+            <a href="https://instagram.com/0xabhikr" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile">
+              <FontAwesomeIcon icon={faInstagram} />
+            </a>
+            <a href="https://t.me/AbhikrX" target="_blank" rel="noopener noreferrer" aria-label="Telegram Profile">
+              <FontAwesomeIcon icon={faTelegram} />
+            </a>
+            <a href="https://www.linkedin.com/in/0xabhikr" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+            <a href="https://x.com/Abhikr_X" target="_blank" rel="noopener noreferrer" aria-label="Twitter (X) Profile">
+              <FontAwesomeIcon icon={faXTwitter} />
+            </a>
+            <a href="mailto:abhikr6714@outlook.com" target="_blank" rel="noopener noreferrer" aria-label="Email Me">
+              <FontAwesomeIcon icon={faEnvelope} />
+            </a>
           </div>
+
         </div>
 
-        <Separator className="border-t-2"  style={{marginTop:-20}}/>
+        <Separator className="border-t-2" style={{ marginTop: -20 }} />
 
         {/* <h1 className="bg-purple-100 dark:bg-purple-400 p-4 border-l-4 border-purple-600 dark:border-purple-800 rounded" style={{ borderRadius:10}}>
          */}
-         <h1 style={{fontSize:30 , marginTop:-30}}>
+        <h1 style={{ fontSize: 30, marginTop: -30 }}>
           🔍 Valuable Informative Articles Section
         </h1>
 
         {[1, 2, 3].map((_, i) => (
-          <div key={i} className="border p-4 rounded-lg  flex flex-col space-y-4" style={{marginTop:-30}}>
+          <div key={i} className="border p-4 rounded-lg  flex flex-col space-y-4" style={{ marginTop: -30 }}>
             <div className="flex justify-between items-center text-sm">
               <h3 className="font-normal underline">PHP SCRIPT TO HANDLE TELEGRAM BOT WEBHOOKS WITH REAL-TIME UPDATES</h3>
               <div className="text-muted-foreground">
@@ -99,7 +129,7 @@ export default function HomePage() {
                   width={400}
                   height={200}
                   className="object-cover h-32 w-full md:h-auto md:clip-webhook"
-                  style={{borderRadius:10}}
+                  style={{ borderRadius: 10 }}
                 />
               </div>
             </div>
