@@ -108,7 +108,7 @@ export default function Navbar() {
       <NavigationMenu>
         <NavigationMenuList>
           <NavigationMenuItem>
-            <NavigationMenuTrigger>Components</NavigationMenuTrigger>
+            <NavigationMenuTrigger>Friends</NavigationMenuTrigger>
             <NavigationMenuContent className="rounded-md p-4 bg-white/60 dark:bg-black/40 backdrop-blur-md shadow-md border border-white/30 dark:border-white/10 transition-all duration-300">
 
               <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
@@ -159,14 +159,14 @@ export default function Navbar() {
                shadow-none hover:shadow-none active:shadow-none">Projects</Link>
             </MenubarTrigger>
           </MenubarMenu>
-          <MenubarMenu>
+          {/* <MenubarMenu>
             <MenubarTrigger asChild>
               <Link href="/friends" className="px-3 py-2 text-sm text-foreground hover:text-primary 
                !bg-transparent hover:!bg-transparent active:!bg-transparent 
                focus:!bg-transparent focus:outline-none focus:ring-0 
                shadow-none hover:shadow-none active:shadow-none">Friends</Link>
             </MenubarTrigger>
-          </MenubarMenu>
+          </MenubarMenu> */}
         </div>
       </Menubar>
 

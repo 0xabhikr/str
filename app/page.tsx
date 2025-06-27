@@ -35,7 +35,7 @@ export default function HomePage() {
         </Popover>
       </div> */}
 
-      <Alert variant="destructive">
+      <Alert variant="destructive" style={{ marginTop:-10}}>
         <AlertCircleIcon />
 
         <AlertDescription >
@@ -44,13 +44,14 @@ export default function HomePage() {
       </Alert>
 
       <Card className="p-4 space-y-6 font-oxanium normal">
-        <div className="bg-purple-100 dark:bg-purple-400 p-4 border-l-4 border-purple-600 dark:border-purple-800 rounded " style={{width:400, fontSize:20, height:50, borderRadius:10}}>
-          <h2 className="text-xl  " style={{marginTop:-5}}>✨ Daily Spark of Thought</h2>
+        {/* <div className="bg-purple-100 dark:bg-purple-400 p-4 border-l-4 border-purple-600 dark:border-purple-800 rounded " style={{width:400, fontSize:20, height:50, borderRadius:10}}> */}
+        <div>
+          <h2 className="text-xl  " >✨ Daily Spark of Thought</h2>
         </div>
 
-        <Separator className="border-t-2 mt-2" style={{marginTop:-30}}/>
+        <Separator className="border-t-2 mt-2" style={{marginTop:-25}}/>
 
-        <div >
+        <div style={{marginTop:-25}} >
           <em style={{marginTop:0}} >“Sometimes a single thought is all it takes to change your day.”</em>
         </div>
 
@@ -60,27 +61,17 @@ export default function HomePage() {
           <li>Growth begins at the edge of your comfort zone. Don't be afraid to try something new or challenge yourself today. That's where true learning and progress happen.</li>
         </ul>
 
-        <div className="space-y-2">
-          <span className="font-medium text-sm">Social Networks:</span>
-          {/* <div className="flex flex-wrap gap-3 items-center">
-            {socialIcons.map(({ icon, url, label }) => (
-              <a
-                key={label}
-                href={url}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={`${label} Profile`}
-                className="text-muted-foreground hover:text-primary text-xl"
-              >
-                {icon}
-              </a>
-            ))}
-          </div> */}
+        <div className="space-y-2" style={{marginTop:-30}}>
+          <span className="" style={{fontSize:20}}>Social Networks:</span>
+          <div className="flex flex-wrap gap-3 items-center">
+          </div>
         </div>
 
         <Separator className="border-t-2" />
 
-        <h1 className="bg-purple-100 dark:bg-purple-400 p-4 border-l-4 border-purple-600 dark:border-purple-800 rounded" style={{ borderRadius:10}}>
+        {/* <h1 className="bg-purple-100 dark:bg-purple-400 p-4 border-l-4 border-purple-600 dark:border-purple-800 rounded" style={{ borderRadius:10}}>
+         */}
+         <h1 style={{fontSize:30}}>
           🔍 Valuable Informative Articles Section
         </h1>
 
