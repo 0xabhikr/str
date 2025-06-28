@@ -136,21 +136,35 @@ export default function Navbar() {
             <div className="flex space-x-2">
               <MenubarMenu>
                 <MenubarTrigger asChild>
-                  <Link href="/" className="px-3 py-2 text-sm text-foreground hover:text-primary">Home</Link>
+                  <Link href="/" className="px-3 py-2 text-sm text-foreground hover:text-primary More actions
+               !bg-transparent hover:!bg-transparent active:!bg-transparent 
+               focus:!bg-transparent focus:outline-none focus:ring-0 
+               shadow-none hover:shadow-none active:shadow-none">Home</Link>
                 </MenubarTrigger>
               </MenubarMenu>
               <MenubarMenu>
                 <MenubarTrigger asChild>
-                  <Link href="/about" className="px-3 py-2 text-sm text-foreground hover:text-primary">About</Link>
+                  <Link href="/about" className="px-3 py-2 text-sm text-foreground hover:text-primary More actions
+               !bg-transparent hover:!bg-transparent active:!bg-transparent 
+               focus:!bg-transparent focus:outline-none focus:ring-0 
+               shadow-none hover:shadow-none active:shadow-none">About</Link>
                 </MenubarTrigger>
               </MenubarMenu>
               <MenubarMenu>
                 <MenubarTrigger asChild>
-                  <Link href="/projects" className="px-3 py-2 text-sm text-foreground hover:text-primary">Projects</Link>
+                  <Link href="/projects" className="px-3 py-2 text-sm text-foreground hover:text-primary More actions
+               !bg-transparent hover:!bg-transparent active:!bg-transparent 
+               focus:!bg-transparent focus:outline-none focus:ring-0 
+               shadow-none hover:shadow-none active:shadow-none">Projects</Link>
                 </MenubarTrigger>
               </MenubarMenu>
             </div>
           </Menubar>
+          <img
+            src="https://res.cloudinary.com/dgu3gae6k/image/upload/v1750616297/favicon-32x32_ninnwa.png"
+            alt="Logo"
+            className="h-8 w-8"
+          />
 
           {/* Desktop Name */}
           <Menubar className="hidden md:flex">
@@ -160,11 +174,7 @@ export default function Navbar() {
           </Menubar>
 
           {/* Logo */}
-          <img
-            src="https://res.cloudinary.com/dgu3gae6k/image/upload/v1750616297/favicon-32x32_ninnwa.png"
-            alt="Logo"
-            className="h-8 w-8"
-          />
+          
 
           {/* Mobile Hamburger */}
           <Button variant="ghost" size="icon" className="md:hidden" onClick={() => setSidebarOpen(true)}>
