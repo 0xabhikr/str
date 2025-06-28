@@ -3,6 +3,15 @@ import Navbar from "@/components/Navbar";
 import "./globals.css";
 import { Oxanium } from "next/font/google";
 
+// ✅ Favicon and title configuration
+export const metadata = {
+  title: "Home | Abhikr", // This sets the browser tab title (default)
+  description: "",
+  icons: {
+    icon: "https://res.cloudinary.com/dgu3gae6k/image/upload/v1750616297/favicon_svz3xj.ico",
+  },
+};
+
 const oxanium = Oxanium({
   subsets: ["latin"],
   weight: ["400", "600", "700"],
@@ -16,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={oxanium.variable} suppressHydrationWarning>
-      <head />
+      {/* <head /> is NOT needed here – Next.js manages the head from `metadata` */}
       <body>
         <ThemeProvider
           attribute="class"

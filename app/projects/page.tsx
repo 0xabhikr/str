@@ -1,3 +1,10 @@
+
+export const metadata = {
+  title: 'Project | Abhikr',
+  description: '',
+}
+
+
 export default function ProjectsPage() {
   return (
     <div className="mt-10">
