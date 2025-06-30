@@ -18,6 +18,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 
 import { AlertCircleIcon } from 'lucide-react';
+import path from 'path';
 
 
 export default function HomePage() {
@@ -115,7 +116,7 @@ export default function HomePage() {
               10 June, 2025 | 10:16 PM
             </div>
           </div>
-          <div className="flex flex-col md:flex-row gap-4">
+          <div className="flex flex-col md:flex-row">
             <div className="md:w-1/2">
               <p className="text-sm">
                 Think of a webhook as a way for Telegram to “ping” your server every time something happens — like when someone sends a message to your bot.
@@ -131,7 +132,7 @@ export default function HomePage() {
                 width={400}
                 height={200}
                 className="object-cover h-32 w-full md:h-auto rounded-lg"
-                style={{ borderRadius: 10 , clipPath:}}
+                style={{ borderRadius: 2,width:'100%', height:'100%', objectFit:'cover',clipPath:'polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%)' }}
               />
             </div>
           </div>
