@@ -107,7 +107,9 @@ export default function HomePage() {
 
         <div className="border p-4 rounded-lg flex flex-col space-y-4" style={{ marginTop: -30 }}>
           <div className="flex justify-between items-center text-sm">
-            <h3 className="font-normal underline">PHP SCRIPT TO HANDLE TELEGRAM BOT WEBHOOKS WITH REAL-TIME UPDATES</h3>
+            <a href='/blog'>
+            <h3 className="font-normal underline" >PHP SCRIPT TO HANDLE TELEGRAM BOT WEBHOOKS WITH REAL-TIME UPDATES </h3>          </a>
+
             <div className="text-muted-foreground">
               <i className="fa-solid fa-calendar-days mr-2" />
               10 June, 2025 | 10:16 PM
@@ -129,7 +131,7 @@ export default function HomePage() {
                 width={400}
                 height={200}
                 className="object-cover h-32 w-full md:h-auto rounded-lg"
-                style={{ borderRadius: 10 }}
+                style={{ borderRadius: 10 , clipPath:}}
               />
             </div>
           </div>

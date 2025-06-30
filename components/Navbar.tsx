@@ -33,6 +33,21 @@ const components = [
     href: "https://xyamzw.top",
     description: "Play your own life, interpret your entire being.",
   },
+  {
+    title: "xyamzw",
+    href: "https://xyamzw.top",
+    description: "Play your own life, interpret your entire being.",
+  },
+  {
+    title: "xyamzw",
+    href: "https://xyamzw.top",
+    description: "Play your own life, interpret your entire being.",
+  },
+  {
+    title: "xyamzw",
+    href: "https://xyamzw.top",
+    description: "Play your own life, interpret your entire being.",
+  },
   
 ]
 
