@@ -238,7 +238,7 @@ export default function Navbar() {
 
             {/* Footer */}
             <div className="absolute bottom-4 text-sm text-muted-foreground">
-              Abhikr | अभिषेक ヤ
+              Abhikr ヤ
             </div>
           </div>
         </div>
