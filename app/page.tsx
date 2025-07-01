@@ -106,7 +106,7 @@ export default function HomePage() {
           🔍 Valuable Informative Articles Section
         </h1>
 
-        <div className="border p-4 rounded-lg flex flex-col space-y-4" style={{ marginTop: -30 }}>
+        {/* <div className="border p-4 rounded-lg flex flex-col space-y-4" style={{ marginTop: -30 }}>
           <div className="flex justify-between items-center text-sm">
             <a href='/blog'>
             <h3 className="font-normal underline" >PHP SCRIPT TO HANDLE TELEGRAM BOT WEBHOOKS WITH REAL-TIME UPDATES </h3>          </a>
@@ -133,6 +133,35 @@ export default function HomePage() {
                 height={200}
                 className="object-cover h-32 w-full md:h-auto rounded-lg"
                 style={{ borderRadius: 2,width:'100%', height:'100%', objectFit:'cover',clipPath:'polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%)' }}
+              />
+            </div>
+          </div>
+        </div> */}
+        <div className="border p-4 rounded-lg flex flex-col space-y-4" style={{ marginTop: -30 }}>
+          <div className="flex justify-between items-center text-sm">
+            <h3 className="font-normal underline">PHP SCRIPT TO HANDLE TELEGRAM BOT WEBHOOKS WITH REAL-TIME UPDATES</h3>
+            <div className="text-muted-foreground">
+              <i className="fa-solid fa-calendar-days mr-2" />
+              10 June, 2025 | 10:16 PM
+            </div>
+          </div>
+          <div className="flex flex-col md:flex-row gap-4">
+            <div className="md:w-1/2">
+              <p className="text-sm">
+                Think of a webhook as a way for Telegram to “ping” your server every time something happens — like when someone sends a message to your bot.
+                Instead of you asking Telegram every few seconds, “Hey, got anything new?”, Telegram just sends the update to your server automatically.
+                <br /><br />
+                It’s fast, efficient, and real-time.
+              </p>
+            </div>
+            <div className="md:w-1/2">
+              <Image
+                src="https://res.cloudinary.com/dgu3gae6k/image/upload/v1750616297/bgbanner_mscnxc.jpg"
+                alt="Webhook Illustration"
+                width={400}
+                height={200}
+                className="object-cover h-32 w-full md:h-auto rounded-lg"
+                style={{ borderRadius: 10 }}
               />
             </div>
           </div>
