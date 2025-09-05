@@ -7,7 +7,7 @@ export const metadata = {
   title: "Home | Abhikr", 
   description: "",
   icons: {
-    icon: "https://res.cloudinary.com/dgu3gae6k/image/upload/v1750616297/favicon_svz3xj.ico",
+    icon: "https://res.cloudinary.com/dgu3gae6k/image/upload/v1757079662/abhikrh_100x100_ptkhvg.png",
   },
 };
 

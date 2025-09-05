@@ -32,22 +32,7 @@ const components = [
     title: "xyamzw",
     href: "https://xyamzw.top",
     description: "Play your own life, interpret your entire being.",
-  },
-  {
-    title: "xyamzw",
-    href: "https://xyamzw.top",
-    description: "Play your own life, interpret your entire being.",
-  },
-  {
-    title: "xyamzw",
-    href: "https://xyamzw.top",
-    description: "Play your own life, interpret your entire being.",
-  },
-  {
-    title: "xyamzw",
-    href: "https://xyamzw.top",
-    description: "Play your own life, interpret your entire being.",
-  },
+  }
   
 ]
 
@@ -79,9 +64,9 @@ export default function Navbar() {
           </DropdownMenu>
 
           {/* Notification */}
-          <Link href="/notifications">
+          {/* <Link href="/notifications">
             <Bell className="w-5 h-5 ml-4" />
-          </Link>
+          </Link> */}
 
           {/* Desktop-only Search and Friends */}
           <div className="hidden md:flex items-center">
@@ -97,7 +82,7 @@ export default function Navbar() {
             </div>
 
             {/* Friends Dropdown */}
-            <NavigationMenu>
+            {/* <NavigationMenu>
               <NavigationMenuList>
                 <NavigationMenuItem>
                   <NavigationMenuTrigger>Friends</NavigationMenuTrigger>
@@ -116,7 +101,7 @@ export default function Navbar() {
                   </NavigationMenuContent>
                 </NavigationMenuItem>
               </NavigationMenuList>
-            </NavigationMenu>
+            </NavigationMenu> */}
           </div>
         </div>
 
@@ -149,10 +134,18 @@ export default function Navbar() {
                shadow-none hover:shadow-none active:shadow-none">Projects</Link>
                 </MenubarTrigger>
               </MenubarMenu>
+              <MenubarMenu>
+                <MenubarTrigger asChild>
+                  <Link href="/projects" className="px-3 py-2 text-sm text-foreground hover:text-primary More actions
+               !bg-transparent hover:!bg-transparent active:!bg-transparent 
+               focus:!bg-transparent focus:outline-none focus:ring-0 
+               shadow-none hover:shadow-none active:shadow-none">Friends</Link>
+                </MenubarTrigger>
+              </MenubarMenu>
             </div>
           </Menubar>
           <img
-            src="https://res.cloudinary.com/dgu3gae6k/image/upload/v1750616297/favicon-32x32_ninnwa.png"
+            src="https://res.cloudinary.com/dgu3gae6k/image/upload/v1757079662/abhikrh_100x100_ptkhvg.png"
             alt="Logo"
             className="h-8 w-8"
           />
@@ -205,11 +198,11 @@ export default function Navbar() {
               <Link href="/" onClick={() => setSidebarOpen(false)}>Home</Link>
               <Link href="/about" onClick={() => setSidebarOpen(false)}>About</Link>
               <Link href="/projects" onClick={() => setSidebarOpen(false)}>Projects</Link>
-              <Link href="/notifications" onClick={() => setSidebarOpen(false)}>Notifications</Link>
+              <Link href="/friends" onClick={() => setSidebarOpen(false)}>Friends</Link>
             </nav>
 
             {/* Friends List */}
-            <div className="pt-4 border-t border-gray-300 dark:border-zinc-700">
+            {/* <div className="pt-4 border-t border-gray-300 dark:border-zinc-700">
               <p className="text-sm font-semibold mb-2">Friends</p>
               <div className="space-y-3">
                 {components.map((component) => (
@@ -224,17 +217,17 @@ export default function Navbar() {
                   </Link>
                 ))}
               </div>
-            </div>
+            </div> */}
 
             {/* Theme Toggle */}
-            <div className="pt-4 border-t border-gray-300 dark:border-zinc-700">
+            {/* <div className="pt-4 border-t border-gray-300 dark:border-zinc-700">
               <p className="text-sm text-muted-foreground mb-2">Theme</p>
               <div className="flex gap-2">
                 <Button onClick={() => setTheme("light")}>Light</Button>
                 <Button onClick={() => setTheme("dark")}>Dark</Button>
                 <Button onClick={() => setTheme("system")}>System</Button>
               </div>
-            </div>
+            </div> */}
 
             {/* Footer */}
             <div className="absolute bottom-4 text-sm text-muted-foreground">
