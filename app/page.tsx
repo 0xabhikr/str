@@ -77,18 +77,18 @@ export default function HomePage() {
             <a href="https://github.com/0xabhikr" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
               <FontAwesomeIcon icon={faGithub} />
             </a>
-            <a href="https://instagram.com/0xabhikr" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile">
+            {/* <a href="https://instagram.com/0xabhikr" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile">
               <FontAwesomeIcon icon={faInstagram} />
-            </a>
+            </a> */}
             <a href="https://t.me/AbhikrX" target="_blank" rel="noopener noreferrer" aria-label="Telegram Profile">
               <FontAwesomeIcon icon={faTelegram} />
             </a>
             <a href="https://www.linkedin.com/in/0xabhikr" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
-            <a href="https://x.com/Abhikr_X" target="_blank" rel="noopener noreferrer" aria-label="Twitter (X) Profile">
+            {/* <a href="https://x.com/Abhikr_X" target="_blank" rel="noopener noreferrer" aria-label="Twitter (X) Profile">
               <FontAwesomeIcon icon={faXTwitter} />
-            </a>
+            </a> */}
             <a href="mailto:abhikr6714@outlook.com" target="_blank" rel="noopener noreferrer" aria-label="Email Me">
               <FontAwesomeIcon icon={faEnvelope} />
             </a>

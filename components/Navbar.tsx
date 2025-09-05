@@ -33,7 +33,7 @@ const components = [
     href: "https://xyamzw.top",
     description: "Play your own life, interpret your entire being.",
   }
-  
+
 ]
 
 export default function Navbar() {
@@ -158,7 +158,7 @@ export default function Navbar() {
           </Menubar>
 
           {/* Logo */}
-          
+
 
           {/* Mobile Hamburger */}
           <Button variant="ghost" size="icon" className="md:hidden" onClick={() => setSidebarOpen(true)}>
