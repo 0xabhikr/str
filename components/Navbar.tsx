@@ -136,7 +136,7 @@ export default function Navbar() {
               </MenubarMenu>
               <MenubarMenu>
                 <MenubarTrigger asChild>
-                  <Link href="/projects" className="px-3 py-2 text-sm text-foreground hover:text-primary More actions
+                  <Link href="/friends" className="px-3 py-2 text-sm text-foreground hover:text-primary More actions
                !bg-transparent hover:!bg-transparent active:!bg-transparent 
                focus:!bg-transparent focus:outline-none focus:ring-0 
                shadow-none hover:shadow-none active:shadow-none">Friends</Link>
@@ -153,7 +153,7 @@ export default function Navbar() {
           {/* Desktop Name */}
           <Menubar className="hidden md:flex">
             <MenubarMenu>
-              <h4 className="ml-4 min-w-[80px]">Abhikr ヤ</h4>
+              <h4 className="ml-4 min-w-[80px]">Abhikr | ✿</h4>
             </MenubarMenu>
           </Menubar>
 
