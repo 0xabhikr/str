@@ -86,9 +86,9 @@ export default function HomePage() {
             <a href="https://www.linkedin.com/in/0xabhikr" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
-            {/* <a href="https://x.com/Abhikr_X" target="_blank" rel="noopener noreferrer" aria-label="Twitter (X) Profile">
+            <a href="https://x.com/Abhikr_X" target="_blank" rel="noopener noreferrer" aria-label="Twitter (X) Profile">
               <FontAwesomeIcon icon={faXTwitter} />
-            </a> */}
+            </a> 
             <a href="mailto:abhikr6714@outlook.com" target="_blank" rel="noopener noreferrer" aria-label="Email Me">
               <FontAwesomeIcon icon={faEnvelope} />
             </a>
