@@ -46,12 +46,8 @@ export default function Navbar() {
       <div className="sticky top-0 z-50 flex items-center justify-between px-4 py-3 backdrop-blur-md bg-white/60 dark:bg-black/30 border-b border-white/20 dark:border-white/10 shadow-lg transition-all duration-300">
 
         {/* Left Group: Theme toggle and Notification */}
-        <div className="flex items-center" style={{ paddingLeft: 20 }}>
-          <Menubar className="hidden md:flex">
-            <MenubarMenu>
-              <h4 className="ml-4 mr-4 min-w-[80px]">The Book of Abhikr </h4>
-            </MenubarMenu>
-          </Menubar>
+        <div className="flex items-center">
+
           {/* Theme Toggle */}
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
