@@ -124,7 +124,7 @@ export default function Navbar() {
                   <Link href="/about" className="px-3 py-2 text-sm text-foreground hover:text-primary More actions
                !bg-transparent hover:!bg-transparent active:!bg-transparent 
                focus:!bg-transparent focus:outline-none focus:ring-0 
-               shadow-none hover:shadow-none active:shadow-none">Note</Link>
+               shadow-none hover:shadow-none active:shadow-none">Cyber Note</Link>
                 </MenubarTrigger>
               </MenubarMenu>
               <MenubarMenu>
