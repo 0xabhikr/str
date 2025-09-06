@@ -10,6 +10,8 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { AlertCircleIcon } from 'lucide-react';
 import path from 'path';
 import ISTClock from '../components/ISTClock';
+import { Menubar, MenubarMenu, MenubarTrigger } from '@/components/ui/menubar';
+import Link from 'next/link';
 
 export default function HomePage() {
 
@@ -29,7 +31,7 @@ export default function HomePage() {
 
         {/* <div className="bg-purple-100 dark:bg-purple-400 p-4 border-l-4 border-purple-600 dark:border-purple-800 rounded " style={{width:400, fontSize:20, height:50, borderRadius:10}}> */}
         <div>
-          <h2 className="text-xl  " >✨ Daily Spark of Thought</h2>
+          <h2 className="text-3xl">Hi, I'm Abhikr 🏐</h2>
         </div>
         <Separator className="border-t-2 mt-2" style={{ marginTop: -25 }} />
 
@@ -37,11 +39,25 @@ export default function HomePage() {
           <em style={{ marginTop: 0 }} >“Sometimes a single thought is all it takes to change your day.”</em>
         </div>
 
-        <ul className="list-disc pl-8 space-y-2 text-sm" style={{ marginTop: -30 }}>
-          <li>Embrace the present moment. Yesterday is gone, and tomorrow isn't guaranteed. Find joy and purpose in what you're doing right now.</li>
-          <li>A small act of kindness can create a ripple effect. You never know how much a simple compliment or helping hand might brighten someone's day, and in turn, your own.</li>
-          <li>Growth begins at the edge of your comfort zone. Don't be afraid to try something new or challenge yourself today. That's where true learning and progress happen.</li>
+        <ul className="list-disc pl-8 space-y-2 text-base" style={{ marginTop: -30 }}>
+          <li>Into tech, open source, and science</li>
+          <li>Cybersecurity rookie</li>
+          <li>Languages: C#, Python</li>
+          <li>Learning: Spanish, Chinese</li>
         </ul>
+        <div className="flex flex-col md:flex-row gap-4 md:space-x-8 mt-[-30px]">
+          <Menubar className="w-full md:w-[150px]">
+            <MenubarMenu>
+              <h4 className="ml-4 mr-4">Download CV</h4>
+            </MenubarMenu>
+          </Menubar>
+          <Menubar className="w-full md:w-[150px] ">
+            <MenubarMenu>
+              <h4 className="ml-4 mr-4">View Project</h4>
+            </MenubarMenu>
+          </Menubar>
+        </div>
+
 
         <div className="space-y-2" style={{ marginTop: -30, display: 'flex' }}>
           <span className="" style={{ fontSize: 20, paddingRight: 10 }}>Social Networks:</span>

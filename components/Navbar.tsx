@@ -46,7 +46,12 @@ export default function Navbar() {
       <div className="sticky top-0 z-50 flex items-center justify-between px-4 py-3 backdrop-blur-md bg-white/60 dark:bg-black/30 border-b border-white/20 dark:border-white/10 shadow-lg transition-all duration-300">
 
         {/* Left Group: Theme toggle and Notification */}
-        <div className="flex items-center">
+        <div className="flex items-center" style={{ paddingLeft: 20 }}>
+          <Menubar className="hidden md:flex">
+            <MenubarMenu>
+              <h4 className="ml-4 mr-4 min-w-[80px]">The Book of Abhikr </h4>
+            </MenubarMenu>
+          </Menubar>
           {/* Theme Toggle */}
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
@@ -123,7 +128,7 @@ export default function Navbar() {
                   <Link href="/about" className="px-3 py-2 text-sm text-foreground hover:text-primary More actions
                !bg-transparent hover:!bg-transparent active:!bg-transparent 
                focus:!bg-transparent focus:outline-none focus:ring-0 
-               shadow-none hover:shadow-none active:shadow-none">About</Link>
+               shadow-none hover:shadow-none active:shadow-none">Note</Link>
                 </MenubarTrigger>
               </MenubarMenu>
               <MenubarMenu>
@@ -231,7 +236,7 @@ export default function Navbar() {
 
             {/* Footer */}
             <div className="absolute bottom-4 text-sm text-muted-foreground">
-              Abhikr ヤ
+              Abhikr ✿
             </div>
           </div>
         </div>
