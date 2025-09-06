@@ -27,7 +27,7 @@ const ISTClock = () => {
 
   return (
     <div className="mt-4 text-xs text-gray-500 text-center" style={{fontSize: 20}}>
-      Current IST Time: <span className="font-mono">{time}</span> 🤍
+      IST Time: <span className="font-mono">{time}</span> 🤍
     </div>
   );
 };
