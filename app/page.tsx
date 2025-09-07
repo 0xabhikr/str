@@ -14,8 +14,6 @@ import { Menubar, MenubarMenu, MenubarTrigger } from '@/components/ui/menubar';
 import Link from 'next/link';
 
 export default function HomePage() {
-
-
   return (
     <div className="p-4 space-y-6">
       <Alert variant="destructive" style={{ marginTop: -10 }}>
@@ -54,14 +52,6 @@ export default function HomePage() {
             </MenubarMenu>
           </Menubar>
         </div>
-
-        {/* <Menubar className="w-full md:w-[150px] ">
-            <MenubarMenu>
-              <h4 className="ml-4 mr-4">View Project</h4>
-            </MenubarMenu>
-          </Menubar> */}
-
-
         <div className="space-y-2" style={{ marginTop: -30, display: 'flex' }}>
           <span className="" style={{ fontSize: 20, paddingRight: 10 }}>Social Networks:</span>
           <div className="social-icons flex gap-4 text-xl">
@@ -89,8 +79,6 @@ export default function HomePage() {
 
         <Separator className="border-t-2 mt-2" />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
-
-          {/* About Section */}
           <div>
             <h3 className="text-lg font-semibold mb-2">About Me</h3>
             <p className="">
@@ -98,8 +86,6 @@ export default function HomePage() {
               Exploring cybersecurity and language learning on the side.
             </p>
           </div>
-
-          {/* Quick Links */}
           <div>
             <h3 className="text-lg font-semibold mb-2">Quick Links</h3>
             <ul className="space-y-1 ">
@@ -109,8 +95,6 @@ export default function HomePage() {
               <li><a href="/cv.pdf" target="_blank" className="hover:underline">Download CV</a></li>
             </ul>
           </div>
-
-          {/* Contact Info & Clock */}
           <div>
             <h3 className="text-lg font-semibold mb-2">Contact</h3>
             <p className="">Email: <a href="mailto:abhikr6714@outlook.com" className="underline">abhikr6714@outlook.com</a></p>
@@ -120,8 +104,6 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-
-        {/* Bottom Bar */}
         <Separator className="border-t-2 mt-2" />
         <div className="flex flex-col md:flex-row justify-between items-center text-xs ">
           <p>&copy; {new Date().getFullYear()} Abhikr. All rights reserved.</p>
