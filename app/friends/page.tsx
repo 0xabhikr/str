@@ -13,7 +13,7 @@ import Link from 'next/link';
 export default function FriendsPage() {
   return (
     <div className="mt-10">
-      <Alert variant="destructive" style={{ marginTop: -10 }}>
+      <Alert variant="destructive" style={{ marginTop: -10, marginBottom: 20  }}>
         <AlertCircleIcon />
         <AlertDescription >
           This site is under development
@@ -30,7 +30,6 @@ export default function FriendsPage() {
             </a>
           </li>
         </ul>
-
         <Separator className="border-t-2 mt-2" />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
           <div>
