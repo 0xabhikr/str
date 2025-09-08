@@ -152,7 +152,7 @@ export default function Navbar() {
           />
 
           {/* Desktop Name */}
-          <Menubar className="hidden md:flex">
+          <Menubar className=" -mr-[1px] hidden md:flex">
             <MenubarMenu>
               <h4 className="ml-4 min-w-[80px]">Abhikr | ✿</h4>
             </MenubarMenu>
