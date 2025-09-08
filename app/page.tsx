@@ -16,7 +16,7 @@ import Link from 'next/link';
 export default function HomePage() {
   return (
     <div className="space-y-6">
-      <Alert variant="destructive" style={{ marginTop: -10 }}>
+      <Alert variant="destructive" style={{  }}>
         <AlertCircleIcon />
         <AlertDescription >
           This site is under development
@@ -46,7 +46,7 @@ export default function HomePage() {
         <div className="flex flex-col md:flex-row items-center gap-4 md:space-x-8 mt-[-30px]">
           <h2 className="text-xl m-0 p-0">For more info :-</h2>
 
-          <Menubar className="w-full md:w-[150px]">
+          <Menubar className=" md:w-[150px]">
             <MenubarMenu>
               <h4 className="m-0 p-0 ml-4 mr-4">Download CV</h4>
             </MenubarMenu>

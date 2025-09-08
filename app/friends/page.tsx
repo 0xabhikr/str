@@ -12,8 +12,9 @@ import Link from 'next/link';
 
 export default function FriendsPage() {
   return (
-    <div className="mt-10">
-      <Alert variant="destructive" style={{ marginTop: -10, marginBottom: 20  }}>
+    <div className="space-y-6">
+  <Alert variant="destructive">
+
         <AlertCircleIcon />
         <AlertDescription >
           This site is under development
