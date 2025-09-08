@@ -91,7 +91,7 @@ export default function HomePage() {
             <ul className="space-y-1 ">
               <li><Link href="/" className="hover:underline">Home</Link></li>
               <li><Link href="/projects" className="hover:underline">Projects</Link></li>
-              <li><Link href="/contact" className="hover:underline">Contact</Link></li>
+              {/* <li><Link href="/contact" className="hover:underline">Contact</Link></li> */}
               <li><a href="/cv.pdf" target="_blank" className="hover:underline">Download CV</a></li>
             </ul>
           </div>
