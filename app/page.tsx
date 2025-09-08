@@ -15,7 +15,7 @@ import Link from 'next/link';
 
 export default function HomePage() {
   return (
-    <div className="p-4 space-y-6">
+    <div className="space-y-6">
       <Alert variant="destructive" style={{ marginTop: -10 }}>
         <AlertCircleIcon />
         <AlertDescription >

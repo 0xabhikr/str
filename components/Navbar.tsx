@@ -51,7 +51,7 @@ export default function Navbar() {
           {/* Theme Toggle */}
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
-              <Button variant="outline" size="icon" className="ml-4">
+              <Button variant="outline" size="icon" className="">
                 <Sun className="h-5 w-5 dark:hidden" />
                 <Moon className="hidden h-5 w-5 dark:block" />
                 <span className="sr-only">Toggle theme</span>
@@ -162,7 +162,7 @@ export default function Navbar() {
 
 
           {/* Mobile Hamburger */}
-          <Button variant="ghost" size="icon" className="md:hidden" onClick={() => setSidebarOpen(true)}>
+          <Button variant="ghost" size="icon" className="md:hidden -mr-2" onClick={() => setSidebarOpen(true)}>
             <Menu />
           </Button>
         </div>
