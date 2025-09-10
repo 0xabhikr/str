@@ -41,7 +41,7 @@ export default function HomePage() {
           <li>AI/ML, Open source, and Research</li>
           <li>Cybersecurity rookie</li>
           <li>Languages: C#, Python</li>
-          <li>Learning: Spanish, Chinese</li>
+          <li>Learning: Spanish, Portuguese</li>
         </ul>
         <div className="flex flex-col md:flex-row items-center gap-4 md:space-x-8 mt-[-30px]">
           <h2 className="text-xl m-0 p-0">For more info :-</h2>
