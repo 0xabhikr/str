@@ -13,7 +13,7 @@ import Link from 'next/link';
 export default function FriendsPage() {
   return (
     <div className="space-y-6">
-  <Alert variant="destructive">
+      <Alert variant="destructive">
 
         <AlertCircleIcon />
         <AlertDescription >
