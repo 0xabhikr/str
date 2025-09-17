@@ -46,9 +46,9 @@ export default function HomePage() {
         <div className="flex flex-col md:flex-row items-center gap-4 md:space-x-8 mt-[-30px]">
           <h2 className="text-xl m-0 p-0">For more info :-</h2>
 
-          <Menubar className=" md:w-[150px]">
+          <Menubar className=" md:w-[150px] backdrop-blur-md bg-white/10 border border-white/20 shadow-md">
             <MenubarMenu>
-              <h4 className="m-0 p-0 ml-4 mr-4">Download CV</h4>
+              <h4 className="m-0 p-0 ml-4 mr-4 ">Download CV</h4>
             </MenubarMenu>
           </Menubar>
         </div>

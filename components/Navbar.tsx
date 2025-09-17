@@ -111,14 +111,14 @@ export default function Navbar() {
         {/* Right Group: Nav links, logo, profile, hamburger */}
         <div className="flex items-center space-x-4">
           {/* Desktop Nav Links */}
-          <Menubar className="hidden md:flex">
+          <Menubar className="hidden md:flex backdrop-blur-md bg-white/10 border border-white/20 shadow-md">
             <div className="flex space-x-2">
               <MenubarMenu>
                 <MenubarTrigger asChild>
                   <Link href="/" className="px-3 py-2 text-sm text-foreground hover:text-primary More actions
                !bg-transparent hover:!bg-transparent active:!bg-transparent 
                focus:!bg-transparent focus:outline-none focus:ring-0 
-               shadow-none hover:shadow-none active:shadow-none">Home</Link>
+               shadow-none hover:shadow-none active:shadow-none ">Home</Link>
                 </MenubarTrigger>
               </MenubarMenu>
               <MenubarMenu>
@@ -154,7 +154,7 @@ export default function Navbar() {
           />
 
           {/* Desktop Name */}
-          <Menubar className=" -mr-[1px] hidden md:flex">
+          <Menubar className=" -mr-[1px] hidden md:flex backdrop-blur-md bg-white/10 border border-white/20 shadow-md">
             <MenubarMenu>
               <h4 className="ml-4 min-w-[80px]">Abhikr | ✿</h4>
             </MenubarMenu>
