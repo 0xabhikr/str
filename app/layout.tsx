@@ -2,7 +2,6 @@ import { ThemeProvider } from "@/components/theme-provider";
 import Navbar from "@/components/Navbar";
 import "./globals.css";
 import { Oxanium } from "next/font/google";
-import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata = {
   title: "Home | Abhikr", 
