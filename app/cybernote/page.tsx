@@ -10,11 +10,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { AlertCircleIcon } from "lucide-react"
 import Link from "next/link";
 
-// export const metadata = {
-//   title: 'About | Abhikr',
-//   description: 'Learn more about us.',
-// }
-
 export default function AboutPage() {
   return (
     <div className="space-y-6">

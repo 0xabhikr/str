@@ -39,7 +39,7 @@ export default function HomePage() {
 
         <ul className="list-disc pl-8 space-y-2 text-base" style={{ marginTop: -30 }}>
           <li>AI/ML, Open source, and Research</li>
-          <li>Cybersecurity rookie</li>
+          <li>Cybersecurity Rookie</li>
           <li>Languages: C#, Python</li>
           <li>Learning: Spanish, Portuguese</li>
         </ul>
