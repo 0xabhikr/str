@@ -43,7 +43,9 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="sticky top-0 z-50 flex items-center justify-between px-4 py-3 backdrop-blur-md bg-white/60 dark:bg-black/30 border-b border-white/20 dark:border-white/10 shadow-lg transition-all duration-300">
+      {/* <div className="sticky top-0 z-50 flex items-center justify-between px-4 py-3 backdrop-blur-md bg-white/60 dark:bg-black/30 border-b border-white/20 dark:border-white/10 shadow-lg transition-all duration-300"> */}
+      <div className="fixed top-4 left-4 right-4 z-50 flex items-center justify-between px-4 py-2 rounded-xl backdrop-blur-md bg-white/60 dark:bg-black/30 border border-white/20 dark:border-white/10 shadow-lg transition-all duration-300">
+
 
         {/* Left Group: Theme toggle and Notification */}
         <div className="flex items-center">
@@ -197,7 +199,7 @@ export default function Navbar() {
             {/* Links */}
             <nav className="flex flex-col space-y-3 text-base pt-2">
               <Link href="/" onClick={() => setSidebarOpen(false)}>Home</Link>
-              <Link href="/cybernote" onClick={() => setSidebarOpen(false)}>CyberNote</Link>
+              <Link href="/cybernote" onClick={() => setSidebarOpen(false)}>Cyber Note</Link>
               <Link href="/projects" onClick={() => setSidebarOpen(false)}>Projects</Link>
               <Link href="/friends" onClick={() => setSidebarOpen(false)}>Friends</Link>
             </nav>

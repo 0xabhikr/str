@@ -12,7 +12,7 @@ import Link from 'next/link';
 
 export default function FriendsPage() {
   return (
-    <div className="space-y-6">
+    <div className="pt-[70px] left-4 right-4 space-y-6">
       <Alert variant="destructive">
 
         <AlertCircleIcon />
@@ -20,7 +20,7 @@ export default function FriendsPage() {
           This site is under development
         </AlertDescription>
       </Alert>
-      <Card className="p-4 space-y-6 font-oxanium normal backdrop-blur-md bg-white/10 border border-white/20 shadow-md rounded-xl">
+      <Card className="p-4 left-4 right-4 space-y-6 font-oxanium normal backdrop-blur-md bg-white/10 border border-white/20 shadow-md rounded-xl">
         <h1 className="text-3xl pt-4">Friends Links</h1>
         <p className="-mt-6">Here are some blog sites from familiar friends. Feel free to explore and connect with each other.</p>
         <em style={{ marginTop: -30 }} >“The following rankings are in no particular order:”</em>

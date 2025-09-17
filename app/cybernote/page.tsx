@@ -12,7 +12,7 @@ import Link from "next/link";
 
 export default function AboutPage() {
   return (
-    <div className="space-y-6">
+    <div className="pt-[70px] left-4 right-4 space-y-6">
       <Alert variant="destructive">
 
         <AlertCircleIcon />
@@ -20,7 +20,7 @@ export default function AboutPage() {
           This site is under development
         </AlertDescription>
       </Alert>
-      <Card className="p-4 space-y-6 font-oxanium normal backdrop-blur-md bg-white/10 border border-white/20 shadow-md rounded-xl">
+      <Card className="p-4 left-4 right-4 space-y-6 font-oxanium normal backdrop-blur-md bg-white/10 border border-white/20 shadow-md rounded-xl">
 
         <Separator className="border-t-2 mt-2" />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
