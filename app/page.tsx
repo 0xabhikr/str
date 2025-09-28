@@ -1,6 +1,5 @@
 'use client'
 
-import Image from 'next/image';
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import { Card } from "@/components/ui/card";
 import { Separator } from '@/components/ui/separator';
@@ -8,7 +7,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faInstagram, faTelegram, faLinkedin, faXTwitter, } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { AlertCircleIcon } from 'lucide-react';
-import path from 'path';
 import ISTClock from '../components/ISTClock';
 import { Menubar, MenubarMenu, MenubarTrigger } from '@/components/ui/menubar';
 import Link from 'next/link';
@@ -16,7 +14,7 @@ import Link from 'next/link';
 export default function HomePage() {
   return (
     <div className="pt-[70px] space-y-6 left-4 right-4">
-      <Alert variant="destructive" style={{  }}>
+      <Alert variant="destructive" style={{}}>
         <AlertCircleIcon />
         <AlertDescription >
           This site is under development
@@ -76,6 +74,7 @@ export default function HomePage() {
           </div>
 
         </div>
+
 
         <Separator className="border-t-2 mt-2" />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">

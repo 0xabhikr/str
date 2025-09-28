@@ -27,15 +27,6 @@ import {
   MenubarTrigger,
 } from "@/components/ui/menubar"
 
-const components = [
-  {
-    title: "xyamzw",
-    href: "https://xyamzw.top",
-    description: "Play your own life, interpret your entire being.",
-  }
-
-]
-
 export default function Navbar() {
   const { setTheme } = useTheme()
   const [searchQuery, setSearchQuery] = useState("")
