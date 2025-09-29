@@ -21,8 +21,7 @@ export default function HomePage() {
         </AlertDescription>
       </Alert>
 
-      {/* <Card className="p-4 space-y-6 font-oxanium normal"> */}
-      {/* <Card className="p-4 space-y-6 font-oxanium normal card-glossy"> */}
+
       <Card className="p-4 left-4 right-4 space-y-6 font-oxanium normal backdrop-blur-md bg-white/10 border border-white/20 shadow-md rounded-xl">
 
         {/* <div className="bg-purple-100 dark:bg-purple-400 p-4 border-l-4 border-purple-600 dark:border-purple-800 rounded " style={{width:400, fontSize:20, height:50, borderRadius:10}}> */}
