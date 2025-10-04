@@ -34,14 +34,8 @@ export default function Navbar() {
 
   return (
     <>
-      {/* <div className="sticky top-0 z-50 flex items-center justify-between px-4 py-3 backdrop-blur-md bg-white/60 dark:bg-black/30 border-b border-white/20 dark:border-white/10 shadow-lg transition-all duration-300"> */}
       <div className="fixed top-4 left-4 right-4 z-50 flex items-center justify-between px-4 py-2 rounded-xl backdrop-blur-md bg-white/60 dark:bg-black/30 border border-white/20 dark:border-white/10 shadow-lg transition-all duration-300">
-
-
-        {/* Left Group: Theme toggle and Notification */}
         <div className="flex items-center">
-
-          {/* Theme Toggle */}
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button variant="outline" size="icon" className="">
@@ -56,15 +50,7 @@ export default function Navbar() {
               <DropdownMenuItem onClick={() => setTheme("system")}>System</DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
-
-          {/* Notification */}
-          {/* <Link href="/notifications">
-            <Bell className="w-5 h-5 ml-4" />
-          </Link> */}
-
-          {/* Desktop-only Search and Friends */}
           <div className="hidden md:flex items-center">
-            {/* Search Bar */}
             <div className="relative w-[200px] mx-4 font-['Oxanium']">
               <Search className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" />
               <Input
@@ -74,34 +60,9 @@ export default function Navbar() {
                 className="pr-8"
               />
             </div>
-
-            {/* Friends Dropdown */}
-            {/* <NavigationMenu>
-              <NavigationMenuList>
-                <NavigationMenuItem>
-                  <NavigationMenuTrigger>Friends</NavigationMenuTrigger>
-                  <NavigationMenuContent className="rounded-md p-4 bg-white/60 dark:bg-black/40 backdrop-blur-md shadow-md border border-white/30 dark:border-white/10 transition-all duration-300">
-                    <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
-                      {components.map((component) => (
-                        <ListItem
-                          key={component.title}
-                          title={component.title}
-                          href={component.href}
-                        >
-                          {component.description}
-                        </ListItem>
-                      ))}
-                    </ul>
-                  </NavigationMenuContent>
-                </NavigationMenuItem>
-              </NavigationMenuList>
-            </NavigationMenu> */}
           </div>
         </div>
-
-        {/* Right Group: Nav links, logo, profile, hamburger */}
         <div className="flex items-center space-x-4">
-          {/* Desktop Nav Links */}
           <Menubar className="hidden md:flex backdrop-blur-md bg-white/10 border border-white/20 shadow-md">
             <div className="flex space-x-2">
               <MenubarMenu>
@@ -139,35 +100,30 @@ export default function Navbar() {
             </div>
           </Menubar>
           <img
-            src="https://res.cloudinary.com/dgu3gae6k/image/upload/v1757079662/abhikrh_100x100_ptkhvg.png"
+            src="https://res.cloudinary.com/dgu3gae6k/image/upload/v1759546975/abhikr_uvns8e.png"
             alt="Logo"
             className="h-8 w-8"
           />
-
-          {/* Desktop Name */}
-          <Menubar className=" -mr-[1px] hidden md:flex backdrop-blur-md bg-white/10 border border-white/20 shadow-md">
+          <Menubar className="-mr-[1px] hidden md:flex backdrop-blur-md bg-white/10 border border-white/20 shadow-md">
             <MenubarMenu>
-              <h4 className="ml-4 min-w-[80px]">Abhikr | ✿</h4>
+              <div className="ml-4 min-w-[80px] flex items-center space-x-2">
+                <h4 className="text-base font-semibold">Abhikr |</h4>
+                <img
+                  src="https://res.cloudinary.com/dgu3gae6k/image/upload/v1759546975/abhikr_uvns8e.png"
+                  alt="Logo"
+                  className="h-8 w-8"
+                />
+              </div>
             </MenubarMenu>
           </Menubar>
-
-          {/* Logo */}
-
-
-          {/* Mobile Hamburger */}
           <Button variant="ghost" size="icon" className="md:hidden -mr-2" onClick={() => setSidebarOpen(true)}>
             <Menu />
           </Button>
         </div>
       </div>
-
-      {/* Mobile Sidebar Drawer */}
       {sidebarOpen && (
         <div className="fixed inset-0 z-50 md:hidden flex">
-          {/* Overlay */}
           <div className="fixed inset-0 bg-black/50 backdrop-blur-sm" onClick={() => setSidebarOpen(false)}></div>
-
-          {/* Sidebar Content */}
           <div className="relative w-72 bg-white dark:bg-zinc-900 p-6 space-y-4 z-50 h-full overflow-y-auto">
             <div className="flex items-center justify-between mb-4">
               <h2 className="font-bold text-lg">Menu</h2>
@@ -175,8 +131,6 @@ export default function Navbar() {
                 <X />
               </Button>
             </div>
-
-            {/* Search Bar */}
             <div className="relative">
               <Search className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" />
               <Input
@@ -186,44 +140,12 @@ export default function Navbar() {
                 className="pr-8"
               />
             </div>
-
-            {/* Links */}
             <nav className="flex flex-col space-y-3 text-base pt-2">
               <Link href="/" onClick={() => setSidebarOpen(false)}>Home</Link>
               <Link href="/cybernote" onClick={() => setSidebarOpen(false)}>Cyber Note</Link>
               <Link href="/projects" onClick={() => setSidebarOpen(false)}>Projects</Link>
               <Link href="/friends" onClick={() => setSidebarOpen(false)}>Friends</Link>
             </nav>
-
-            {/* Friends List */}
-            {/* <div className="pt-4 border-t border-gray-300 dark:border-zinc-700">
-              <p className="text-sm font-semibold mb-2">Friends</p>
-              <div className="space-y-3">
-                {components.map((component) => (
-                  <Link
-                    key={component.title}
-                    href={component.href}
-                    className="block text-sm text-muted-foreground hover:text-foreground"
-                    onClick={() => setSidebarOpen(false)}
-                  >
-                    <div className="font-medium">{component.title}</div>
-                    <p className="text-xs">{component.description}</p>
-                  </Link>
-                ))}
-              </div>
-            </div> */}
-
-            {/* Theme Toggle */}
-            {/* <div className="pt-4 border-t border-gray-300 dark:border-zinc-700">
-              <p className="text-sm text-muted-foreground mb-2">Theme</p>
-              <div className="flex gap-2">
-                <Button onClick={() => setTheme("light")}>Light</Button>
-                <Button onClick={() => setTheme("dark")}>Dark</Button>
-                <Button onClick={() => setTheme("system")}>System</Button>
-              </div>
-            </div> */}
-
-            {/* Footer */}
             <div className="absolute bottom-4 text-sm text-muted-foreground">
               Abhikr ✿
             </div>

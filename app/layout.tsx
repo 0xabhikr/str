@@ -4,10 +4,10 @@ import "./globals.css";
 import { Oxanium } from "next/font/google";
 
 export const metadata = {
-  title: "Home | Abhikr", 
+  title: "Abhikr", 
   description: "",
   icons: {
-    icon: "https://res.cloudinary.com/dgu3gae6k/image/upload/v1757079662/abhikrh_100x100_ptkhvg.png",
+    icon: "https://res.cloudinary.com/dgu3gae6k/image/upload/v1759546975/abhikr_uvns8e.png",
   },
 };
 
