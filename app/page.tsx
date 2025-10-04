@@ -25,22 +25,38 @@ export default function HomePage() {
       <Card className="p-4 left-4 right-4 space-y-6 font-oxanium normal backdrop-blur-md bg-white/10 border border-white/20 shadow-md rounded-xl">
         <div>
           <h2 className="text-3xl flex items-center">Hi, I'm Abhikr
-            <Image src={Sakura} alt="icon" width={30} height={30} className="ml-2" style={{ animation: 'spin 3s linear infinite', }} />
+            <Image src={Sakura} alt="icon" width={30} height={30} className="ml-2" style={{ animation: 'spin 2s linear infinite', }} />
           </h2>
         </div>
-        <Separator className="border-t-2 mt-2" style={{ marginTop: -25 }} />
-        <div style={{ marginTop: -25 }} >
-          <em style={{ marginTop: 0 }} >“Sometimes a single thought is all it takes to change your day.”</em>
-        </div>
-        <ul className="list-disc pl-8 space-y-2 text-base" style={{ marginTop: -30 }}>
-          <li>AI/ML, Open source, and Research</li>
-          <li>Cybersecurity Rookie</li>
-          <li>Languages: C#, Python</li>
-          <li>Learning: Spanish, Portuguese</li>
-        </ul>
+        <Separator className="border-t-2 mt-2" style={{ marginTop: -30 }} />
+        <div className="flex flex-col md:flex-row items-start gap-6 mt-4">
+  <div className="w-full md:w-1/2 space-y-4">
+    <em className="block text-sm" style={{ marginTop: -40 }} >“I would rather die for flowers than live for bread.”</em>
+    <Image
+      src="https://zm3wlxe8zvibbtdu.public.blob.vercel-storage.com/normal/3694012.jpg"
+      alt="Showcase"
+      width={800}
+      height={450}
+      className="rounded-lg shadow-md object-cover w-full h-[350px]"
+    />
+  </div>
+
+  <div className="w-full md:w-1/2" style={{ marginTop: -40 }} >
+  <h3 className="text-xl pl-3 font-semibold mb-2">About Us</h3>
+  <Separator className="border-t-2 mt-2 mb-4 ml-[5]" />
+  <ul className="list-disc pl-6 space-y-2 text-base">
+    <li>AI/ML, Open source, and Research</li>
+    <li>Cybersecurity Rookie</li>
+    <li>Languages: C#, Python</li>
+    <li>Learning: Spanish, Portuguese</li>
+  </ul>
+</div>
+
+</div>
+
+
         <div className="flex flex-col md:flex-row items-center gap-4 md:space-x-8 mt-[-30px]">
           <h2 className="text-xl m-0 p-0">For more info :-</h2>
-
           <Menubar className=" md:w-[150px] backdrop-blur-md bg-white/10 border border-white/20 shadow-md">
             <MenubarMenu>
               <h4 className="m-0 p-0 ml-4 mr-4 ">Download CV</h4>

@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
-    domains: ["res.cloudinary.com"],
+    domains: ["res.cloudinary.com",'zm3wlxe8zvibbtdu.public.blob.vercel-storage.com'],
   },
   eslint: {
     ignoreDuringBuilds: true,
