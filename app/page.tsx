@@ -40,7 +40,6 @@ export default function HomePage() {
               className="rounded-lg shadow-md object-cover w-full h-[350px]"
             />
           </div>
-
           <div className="w-full md:w-1/2" style={{ marginTop: -40 }} >
             <h3 className="text-xl pl-3 font-semibold mb-2">About Us</h3>
             <Separator className="border-t-2 mt-2 mb-4 " />
@@ -82,10 +81,7 @@ export default function HomePage() {
               <FontAwesomeIcon icon={faEnvelope} />
             </a>
           </div>
-
         </div>
-
-
         <Separator className="border-t-2 mt-2" />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
           <div>
