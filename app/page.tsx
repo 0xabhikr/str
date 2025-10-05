@@ -41,7 +41,7 @@ export default function HomePage() {
             />
           </div>
           <div className="w-full md:w-1/2" style={{ marginTop: -40 }} >
-            <h3 className="text-xl pl-3 font-semibold mb-2">About Us</h3>
+            <h3 className="text-xl pl-3 font-semibold mb-2">About Me</h3>
             <Separator className="border-t-2 mt-2 mb-4 " />
             <ul className="list-disc pl-6 space-y-2 text-base">
               <li>AI/ML, Open source, and Research</li>
