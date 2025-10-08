@@ -46,7 +46,7 @@ export default function HomePage() {
             <ul className="list-disc pl-6 space-y-2 text-base">
               <li>AI/ML, Open source, and Research</li>
               <li>Cybersecurity Rookie</li>
-              <li>Languages: C#, Python</li>
+              <li>Languages: Swift, Python</li>
               <li>Learning: Spanish, Portuguese</li>
             </ul>
           </div>
