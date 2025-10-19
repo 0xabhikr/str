@@ -36,7 +36,7 @@ export default function FriendsPage() {
           <div>
             <h3 className="text-lg font-semibold mb-2">About Me</h3>
             <p className="">
-              I'm Abhikr — passionate about AI, open source, and lifelong learning.
+              I'm Abhikr passionate about AI, open source, and lifelong learning.
               Exploring cybersecurity and language learning on the side.
             </p>
           </div>

@@ -24,7 +24,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={oxanium.variable} suppressHydrationWarning>
-      {/* <head /> is NOT needed here – Next.js manages the head from `metadata` */}
       <body>
         <ThemeProvider
           attribute="class"

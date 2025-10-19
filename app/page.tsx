@@ -32,19 +32,14 @@ export default function HomePage() {
         <div className="flex flex-col md:flex-row items-start gap-6 mt-4">
           <div className="w-full md:w-1/2 space-y-4">
             <em className="block text-sm" style={{ marginTop: -40 }} >“I would rather die for flowers than live for bread.”</em>
-            <Image
-              src="https://zm3wlxe8zvibbtdu.public.blob.vercel-storage.com/normal/3694012.jpg"
-              alt="Showcase"
-              width={800}
-              height={450}
-              className="rounded-lg shadow-md object-cover w-full h-[350px]"
+            <Image src="https://zm3wlxe8zvibbtdu.public.blob.vercel-storage.com/normal/3694012.jpg"alt="Showcase"width={800}height={450}className="rounded-lg shadow-md object-cover w-full h-[350px]"
             />
           </div>
           <div className="w-full md:w-1/2" style={{ marginTop: -40 }} >
             <h3 className="text-xl pl-3 font-semibold mb-2">About Me</h3>
             <Separator className="border-t-2 mt-2 mb-4 " />
             <ul className="list-disc pl-6 space-y-2 text-base">
-              <li>AI/ML, Open source, and Research</li>
+              <li>Open source and Research</li>
               <li>Cybersecurity Rookie</li>
               <li>Languages: Swift, Python</li>
               <li>Learning: Spanish, Portuguese</li>
@@ -87,7 +82,7 @@ export default function HomePage() {
           <div>
             <h3 className="text-lg font-semibold mb-2">About Me</h3>
             <p className="">
-              I'm Abhikr — passionate about AI, open source, and lifelong learning.
+              I'm Abhikr passionate about AI, open source, and lifelong learning.
               Exploring cybersecurity and language learning on the side.
             </p>
           </div>
