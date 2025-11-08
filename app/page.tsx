@@ -32,7 +32,7 @@ export default function HomePage() {
         <div className="flex flex-col md:flex-row items-start gap-6 mt-4">
           <div className="w-full md:w-1/2 space-y-4">
             <em className="block text-sm" style={{ marginTop: -40 }} >“I would rather die for flowers than live for bread.”</em>
-            <Image src="https://zm3wlxe8zvibbtdu.public.blob.vercel-storage.com/halloween/wp5433026-dragon-leader-wallpapers.jpg"alt="Showcase"width={800}height={450}className="rounded-lg shadow-md object-cover w-full h-[350px]"
+            <Image src="https://zm3wlxe8zvibbtdu.public.blob.vercel-storage.com/winter/8116642.jpg"alt="Showcase"width={800}height={450}className="rounded-lg shadow-md object-cover w-full h-[350px]"
             />
           </div>
           <div className="w-full md:w-1/2" style={{ marginTop: -40 }} >
