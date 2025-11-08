@@ -1,5 +1,6 @@
 import { ThemeProvider } from "@/components/theme-provider";
 import Navbar from "@/components/Navbar";
+import SnowfallEffect from "@/components/SnowfallEffect"; 
 import "./globals.css";
 import { Oxanium } from "next/font/google";
 
@@ -32,6 +33,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Navbar />
+          <SnowfallEffect/>
           <main className="p-4">
             {children}
           </main>
