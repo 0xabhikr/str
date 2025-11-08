@@ -27,7 +27,12 @@ export default function FriendsPage() {
         <ul className="list-disc pl-8 space-y-2 text-base" style={{ marginTop: -30 }}>
           <li>
             <a href="https://xyamzw.top" className=" hover:underline" target="_blank" rel="noopener noreferrer">
-              xyamzw
+              Xyamzw
+            </a>
+          </li>
+          <li>
+            <a href="https://axion-info.netlify.app" className=" hover:underline" target="_blank" rel="noopener noreferrer">
+              Axion
             </a>
           </li>
         </ul>
