@@ -11,7 +11,7 @@ import ISTClock from '../components/ISTClock';
 import { Menubar, MenubarMenu, MenubarTrigger } from '@/components/ui/menubar';
 import Link from 'next/link';
 import Image from 'next/image';
-import Sakura from '../public/sakura.svg';
+import SnowFlake from '../public/snowflake.svg';
 
 export default function HomePage() {
   return (
@@ -24,8 +24,8 @@ export default function HomePage() {
       </Alert>
       <Card className="p-4 left-4 right-4 space-y-6 font-oxanium normal backdrop-blur-md bg-white/10 border border-white/20 shadow-md rounded-xl">
         <div>
-          <h2 className="text-3xl flex items-center">Hi, I'm Abhikr
-            <Image src={Sakura} alt="icon" width={30} height={30} className="ml-2" style={{ animation: 'spin 5s linear infinite', }} />
+          <h2 className="text-3xl flex items-center">Hi, winter whispers on the wind ❄
+            {/* <Image src={SnowFlake} alt="icon" width={30} height={30} className="ml-2" style={{ animation: 'spin 15s linear infinite', }} /> */}
           </h2>
         </div>
         <Separator className="border-t-2 mt-2" style={{ marginTop: -30 }} />
@@ -40,9 +40,9 @@ export default function HomePage() {
             <Separator className="border-t-2 mt-2 mb-4 " />
             <ul className="list-disc pl-6 space-y-2 text-base">
               <li>Open source and Research</li>
-              <li>Cybersecurity Rookie</li>
-              <li>Languages: Swift, Python</li>
-              <li>Learning: Spanish, Portuguese</li>
+              <li>Cybersecurity </li>
+              <li>Languages: Swift, .NET</li>
+              <li>Learning: Spanish, Chinese</li>
             </ul>
           </div>
         </div>
