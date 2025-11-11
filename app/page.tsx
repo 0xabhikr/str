@@ -42,7 +42,7 @@ export default function HomePage() {
               <li>Open source and Research</li>
               <li>Cybersecurity </li>
               <li>Languages: Swift, .NET</li>
-              <li>Learning: Spanish, Chinese</li>
+              <li>Learning: Español, 中文</li>
             </ul>
           </div>
         </div>
