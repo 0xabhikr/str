@@ -20,9 +20,9 @@ export default function HomePage() {
 
       <div className="w-full bg-black/10 dark:bg-white/15 rounded-3xl backdrop-blur-3xl border border-black/20 dark:border-white/30 shadow-[0_0_20px_rgba(0,0,0,0.25)] dark:shadow-[0_0_35px_rgba(255,255,255,0.22)] p-6 md:p-10 space-y-10 relative overflow-hidden text-black dark:text-white">
         <div className="absolute inset-0 pointer-events-none rounded-3xl bg-gradient-to-br from-black/20 via-black/5 to-transparent dark:from-white/30 dark:via-white/5 dark:to-transparent opacity-40"></div>
-        <h2 className="text-4xl font-semibold relative z-10">Hi, Se acerca el invierno</h2>
+        <h2 className="text-4xl font-semibold relative z-10">Hi, Winter is Out.....</h2>
 
-        <Separator className="border-black/20 dark:border-white/30 relative z-10 border-t-2" />
+        <Separator className="border-black/20 dark:border-white/30 relative z-10 border-t-2 mt-[-10]" />
 
         <div className="flex flex-col md:flex-row gap-10 relative z-10 mt-[-20]">
           <div className="w-full md:w-1/2 space-y-4">
@@ -39,7 +39,7 @@ export default function HomePage() {
             <ul className="list-disc pl-6 space-y-3 text-base opacity-90">
               <li>Open source and Research</li>
               <li>Cybersecurity</li>
-              <li>Skills: <img src="https://skillicons.dev/icons?i=dotnet,windows,powershell,linux,debian" /></li>
+              <li>Skills: <img src="https://skillicons.dev/icons?i=cs,kotlin,powershell,dotnet,linux," /></li>
               <li>Learning: Español, 中文</li>
             </ul>
           </div>

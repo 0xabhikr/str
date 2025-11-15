@@ -36,7 +36,7 @@ export default function Navbar() {
         transition-all duration-300
         text-black dark:text-white
       ">
-        <div className="flex items-center">
+        <div className="flex items-center ">
 
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
@@ -73,7 +73,7 @@ export default function Navbar() {
         <div className="flex items-center space-x-4">
 
           
-          <Menubar className="hidden md:flex backdrop-blur-[25px] bg-white/20 dark:bg-black/20 border-none shadow-none text-black dark:text-white">
+          <Menubar className="hidden md:flex backdrop-blur-md bg-white/10 border border-white/20 shadow-md">
             <div className="flex space-x-2">
               <MenubarMenu>
                 <MenubarTrigger asChild>
@@ -106,7 +106,7 @@ export default function Navbar() {
           />
 
           
-          <Menubar className="hidden md:flex backdrop-blur-[25px] bg-white/20 dark:bg-black/20 border-none shadow-none text-black dark:text-white -mr-[1px]">
+          <Menubar className="hidden md:flex backdrop-blur-md bg-white/10 border border-white/20 shadow-md">
             <MenubarMenu>
               <div className="ml-4 min-w-[80px] flex items-center space-x-2">
                 <h4 className="text-base font-semibold">Abhikr |</h4>
