@@ -7,9 +7,8 @@ const ISTClock = () => {
     const updateClock = () => {
       const now = new Date();
 
-      // Convert to IST (UTC +5:30)
       const utc = now.getTime() + now.getTimezoneOffset() * 60000;
-      const istOffset = 5.5 * 60 * 60 * 1000; // IST is UTC +5:30
+      const istOffset = 5.5 * 60 * 60 * 1000; 
       const ist = new Date(utc + istOffset);
 
       const hours = ist.getHours().toString().padStart(2, '0');
@@ -19,10 +18,10 @@ const ISTClock = () => {
       setTime(`${hours}:${minutes}:${seconds}`);
     };
 
-    updateClock(); // Initial call
-    const timer = setInterval(updateClock, 1000); // Update every second
+    updateClock(); 
+    const timer = setInterval(updateClock, 1000); 
 
-    return () => clearInterval(timer); // Cleanup on unmount
+    return () => clearInterval(timer); 
   }, []);
 
   return (

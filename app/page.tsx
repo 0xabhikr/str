@@ -1,6 +1,7 @@
 "use client";
 
 import { Alert, AlertDescription } from "@/components/ui/alert";
+import { Button } from "@/components/ui/button";
 import { Separator } from '@/components/ui/separator';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faTelegram, faXTwitter } from '@fortawesome/free-brands-svg-icons';
@@ -48,11 +49,12 @@ export default function HomePage() {
         <div className="flex items-center space-x-4 mt-[-20] gap-4">
           <h2 className="text-xl m-0 p-0">For more info :-</h2>
 
-          <Menubar className="rounded-full px-4 py-2 backdrop-blur-2xl bg-black/10 dark:bg-white/20 border border-black/20 dark:border-white/40 shadow-[0_0_20px_rgba(0,0,0,0.2)] dark:shadow-[0_0_30px_rgba(255,255,255,0.25)] text-black dark:text-white">
-            <MenubarMenu>
+          <a href="/cv.pdf" download>
+            <Button className="rounded-full px-4 py-2 backdrop-blur-2xl bg-black/10 dark:bg-white/20 border border-black/20 dark:border-white/40 shadow-[0_0_20px_rgba(0,0,0,0.2)] dark:shadow-[0_0_30px_rgba(255,255,255,0.25)] text-black dark:text-white">
               <h4 className="text-sm">Download CV</h4>
-            </MenubarMenu>
-          </Menubar>
+            </Button>
+          </a>
+
         </div>
 
         <div className="flex items-center gap-4 mt-2 relative z-10">
@@ -65,6 +67,9 @@ export default function HomePage() {
             <a href="mailto:abhikr6714@outlook.com"><FontAwesomeIcon icon={faEnvelope} /></a>
           </div>
         </div>
+        <Separator className="border-black/20 dark:border-white/30 relative z-10 border-t-2" />
+
+
 
         <Separator className="border-black/20 dark:border-white/30 relative z-10 border-t-2" />
 
@@ -87,6 +92,8 @@ export default function HomePage() {
             </ul>
           </div>
 
+
+
           <div>
             <h3 className="text-lg font-semibold mb-2">Contact</h3>
             <p>Email: <a href="mailto:abhikr6714@outlook.com" className="underline">abhikr6714@outlook.com</a></p>
@@ -100,7 +107,9 @@ export default function HomePage() {
         <Separator className="border-black/20 dark:border-white/30 relative z-10 border-t-2" />
 
         <div className="flex flex-col md:flex-row justify-between items-center text-xs text-black/70 dark:text-white/80 mt-2 relative z-10">
-          <p>&copy; {new Date().getFullYear()} Abhikr. All rights reserved.</p>
+          {/* <p>&copy; 2024-{new Date().getFullYear()} Abhikr. All rights reserved.</p> */}
+          <p>© 2025 - 2026 Abhikr. All rights reserved.</p>
+
 
           <div className="flex space-x-4 mt-2 md:mt-0 text-lg opacity-90">
             <a href="https://github.com/0xabhikr" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
