@@ -64,7 +64,7 @@ export default function HomePage() {
             <a href="https://github.com/0xabhikr" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
             <a href="https://t.me/ABHIKR4NTX" target="_blank"><FontAwesomeIcon icon={faTelegram} /></a>
             <a href="https://x.com/Abhikr_X" target="_blank"><FontAwesomeIcon icon={faXTwitter} /></a>
-            <a href="mailto:abhikr6714@outlook.com"><FontAwesomeIcon icon={faEnvelope} /></a>
+            <a href="mailto:abhikr2026@proton.me"><FontAwesomeIcon icon={faEnvelope} /></a>
           </div>
         </div>
         <Separator className="border-black/20 dark:border-white/30 relative z-10 border-t-2" />
@@ -96,7 +96,7 @@ export default function HomePage() {
 
           <div>
             <h3 className="text-lg font-semibold mb-2">Contact</h3>
-            <p>Email: <a href="mailto:abhikr6714@outlook.com" className="underline">abhikr6714@outlook.com</a></p>
+            <p>Email: <a href="mailto:abhikr2026@proton.me" className="underline">abhikr2026@proton.me</a></p>
             <p>Telegram: <a href="https://t.me/ABHIKR4NTX" className="underline">ABHIKR4NTX</a></p>
             <div className="mt-2">
               <ISTClock />
@@ -115,7 +115,7 @@ export default function HomePage() {
             <a href="https://github.com/0xabhikr" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
             <a href="https://t.me/ABHIKR4NTX" target="_blank"><FontAwesomeIcon icon={faTelegram} /></a>
             <a href="https://x.com/Abhikr_X" target="_blank"><FontAwesomeIcon icon={faXTwitter} /></a>
-            <a href="mailto:abhikr6714@outlook.com"><FontAwesomeIcon icon={faEnvelope} /></a>
+            <a href="mailto:abhikr2026@proton.me"><FontAwesomeIcon icon={faEnvelope} /></a>
           </div>
         </div>
 
