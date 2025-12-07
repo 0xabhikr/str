@@ -68,7 +68,7 @@ export default function HomePage() {
           </div>
         </div>
         <Separator className="border-black/20 dark:border-white/30 relative z-10 border-t-2" />
-
+        <h2 className="text-4xl font-semibold relative z-10"></h2>
 
 
         <Separator className="border-black/20 dark:border-white/30 relative z-10 border-t-2" />

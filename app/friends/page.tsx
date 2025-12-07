@@ -35,6 +35,11 @@ export default function FriendsPage() {
               Axion
             </a>
           </li>
+          <li>
+            <a href="https://sshhaaddooww301.github.io/vyas_portfolio/" className=" hover:underline" target="_blank" rel="noopener noreferrer">
+              Vyas
+            </a>
+          </li>
         </ul>
         <Separator className="border-t-2 mt-2" />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
