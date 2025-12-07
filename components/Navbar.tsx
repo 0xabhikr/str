@@ -106,7 +106,7 @@ export default function Navbar() {
           />
 
           
-          <Menubar className="hidden md:flex backdrop-blur-md bg-white/10 border border-white/20 shadow-md">
+          <Menubar className="hidden md:flex backdrop-blur-md bg-white/10 border border-white/20 shadow-md mr-[-1px]">
             <MenubarMenu>
               <div className="ml-4 min-w-[80px] flex items-center space-x-2">
                 <h4 className="text-base font-semibold">Abhikr |</h4>

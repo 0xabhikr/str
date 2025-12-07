@@ -68,9 +68,62 @@ export default function HomePage() {
           </div>
         </div>
         <Separator className="border-black/20 dark:border-white/30 relative z-10 border-t-2" />
-        <h2 className="text-4xl font-semibold relative z-10"></h2>
+        <h2 className="text-4xl font-semibold relative z-10">Featured Projects</h2>
 
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6 relative z-10">
 
+          <div className="p-5 rounded-2xl bg-black/10 dark:bg-white/10 border border-black/20 dark:border-white/20">
+            <div className="flex justify-between items-center">
+              <h3 className="text-lg font-semibold">Akamai Bypass Tool (XSS-based)</h3>
+
+              <button
+                className="text-xs px-3 py-1 rounded-full 
+                   bg-red-500/20 text-red-400 
+                   border border-red-500/30 
+                   hover:bg-red-500/30 transition">
+                Confidential
+              </button>
+            </div>
+
+            <p className="opacity-80 text-sm mt-2">
+              Akamai security filters can be bypassed using controlled XSS payload execution.
+            </p>
+          </div>
+
+          <div className="p-5 rounded-2xl bg-black/10 dark:bg-white/10 border border-black/20 dark:border-white/20">
+            <div className="flex justify-between items-center">
+              <h3 className="text-lg font-semibold">Cyber Recon Toolkit</h3>
+              <button
+                className="text-xs px-3 py-1 rounded-full 
+                 bg-blue-500/20 text-blue-400 
+                 border border-blue-500/30 
+                 hover:bg-blue-500/30 transition">
+                Visit Code
+              </button>
+            </div>
+
+            <p className="opacity-80 text-sm mt-2">
+              Lightweight OSINT + recon toolkit built with bash & python.
+            </p>
+          </div>
+
+          <div className="p-5 rounded-2xl bg-black/10 dark:bg-white/10 border border-black/20 dark:border-white/20">
+            <div className="flex justify-between items-center">
+              <h3 className="text-lg font-semibold">AI Language Engine</h3>
+              <button
+                className="text-xs px-3 py-1 rounded-full 
+                 bg-yellow-500/20 text-yellow-400 
+                 border border-yellow-500/40 
+                 hover:bg-yellow-500/30 transition">
+                Soon
+              </button>
+            </div>
+
+            <p className="opacity-80 text-sm mt-2">
+              Minimal transformer experiments for multilingual models.
+            </p>
+          </div>
+        </div>
         <Separator className="border-black/20 dark:border-white/30 relative z-10 border-t-2" />
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-sm relative z-10">
