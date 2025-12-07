@@ -40,7 +40,7 @@ export default function HomePage() {
             <ul className="list-disc pl-6 space-y-3 text-base opacity-90">
               <li>Open source and Research</li>
               <li>Cybersecurity</li>
-              <li>Skills: <img src="https://skillicons.dev/icons?i=cs,dotnet,debian,bash,linux," /></li>
+              <li>Skills: <img src="https://skillicons.dev/icons?i=python,cs,unity,debian,linux," /></li>
               <li>Learning: Español, 中文</li>
             </ul>
           </div>
