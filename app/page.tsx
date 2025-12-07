@@ -74,7 +74,7 @@ export default function HomePage() {
 
           <div className="p-5 rounded-2xl bg-black/10 dark:bg-white/10 border border-black/20 dark:border-white/20">
             <div className="flex justify-between items-center">
-              <h3 className="text-lg font-semibold">Akamai Bypass Tool (XSS-based)</h3>
+              <h3 className="text-lg font-semibold">Akamai Bypass Tool</h3>
 
               <button
                 className="text-xs px-3 py-1 rounded-full 
@@ -98,7 +98,7 @@ export default function HomePage() {
                  bg-blue-500/20 text-blue-400 
                  border border-blue-500/30 
                  hover:bg-blue-500/30 transition">
-                Visit Code
+                VisitCode
               </button>
             </div>
 
