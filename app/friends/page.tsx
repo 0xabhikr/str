@@ -40,6 +40,11 @@ export default function FriendsPage() {
               Vyas
             </a>
           </li>
+          <li>
+            <a href="https://sar.s1d.me" className=" hover:underline" target="_blank" rel="noopener noreferrer">
+              Sarthak Sidhant
+            </a>
+          </li>
         </ul>
         <Separator className="border-t-2 mt-2" />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
