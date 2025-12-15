@@ -84,7 +84,8 @@ export default function Navbar() {
   <MenubarMenu>
   <MenubarTrigger asChild>
     <a
-      href="/blog"
+      href="https://abhikr.vercel.app/blog"
+
       className="px-3 py-2 text-sm hover:text-primary bg-transparent"
     >
       Cyber Note
