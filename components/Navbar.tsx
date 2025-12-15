@@ -84,7 +84,7 @@ export default function Navbar() {
   <MenubarMenu>
   <MenubarTrigger asChild>
     <a
-      href="https://abhikr.vercel.app/blog"
+      href="https://abhikr.vercel.app"
 
       className="px-3 py-2 text-sm hover:text-primary bg-transparent"
     >
