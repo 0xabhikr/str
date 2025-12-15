@@ -84,14 +84,14 @@ export default function Navbar() {
   <MenubarMenu>
   <MenubarTrigger asChild>
     <a
-      href="http://localhost:4321/"
+      href="/blog"
       className="px-3 py-2 text-sm hover:text-primary bg-transparent"
-      target="_self"
     >
       Cyber Note
     </a>
   </MenubarTrigger>
 </MenubarMenu>
+
 
 
               <MenubarMenu>
