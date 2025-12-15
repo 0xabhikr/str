@@ -80,11 +80,20 @@ export default function Navbar() {
                   <Link href="/" className="px-3 py-2 text-sm hover:text-primary !bg-transparent">Home</Link>
                 </MenubarTrigger>
               </MenubarMenu>
-              <MenubarMenu>
-                <MenubarTrigger asChild>
-                  <Link href="/cybernote" className="px-3 py-2 text-sm hover:text-primary !bg-transparent">Cyber Note</Link>
-                </MenubarTrigger>
-              </MenubarMenu>
+              
+  <MenubarMenu>
+  <MenubarTrigger asChild>
+    <a
+      href="http://localhost:4321/"
+      className="px-3 py-2 text-sm hover:text-primary bg-transparent"
+      target="_self"
+    >
+      Cyber Note
+    </a>
+  </MenubarTrigger>
+</MenubarMenu>
+
+
               <MenubarMenu>
                 <MenubarTrigger asChild>
                   <Link href="/projects" className="px-3 py-2 text-sm hover:text-primary !bg-transparent">Projects</Link>
@@ -151,7 +160,7 @@ export default function Navbar() {
 
             <nav className="flex flex-col space-y-3 text-base pt-2">
               <Link href="/" onClick={() => setSidebarOpen(false)}>Home</Link>
-              <Link href="/cybernote" onClick={() => setSidebarOpen(false)}>Cyber Note</Link>
+              <Link href="/blog" onClick={() => setSidebarOpen(false)}>Cyber Note</Link>
               <Link href="/projects" onClick={() => setSidebarOpen(false)}>Projects</Link>
               <Link href="/friends" onClick={() => setSidebarOpen(false)}>Friends</Link>
             </nav>
