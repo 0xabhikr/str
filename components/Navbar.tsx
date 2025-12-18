@@ -151,7 +151,7 @@ export default function Navbar() {
 
             <nav className="flex flex-col space-y-3 text-base pt-2">
               <Link href="/" onClick={() => setSidebarOpen(false)}>Home</Link>
-              <Link href="/cybernote" onClick={() => setSidebarOpen(false)}>Cyber Note</Link>
+              <a href="https://blog.abhikr.site" onClick={() => setSidebarOpen(false)}>Cyber Note</a>
               <Link href="/projects" onClick={() => setSidebarOpen(false)}>Projects</Link>
               <Link href="/friends" onClick={() => setSidebarOpen(false)}>Friends</Link>
             </nav>
