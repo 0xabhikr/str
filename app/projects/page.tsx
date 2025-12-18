@@ -13,7 +13,7 @@ import Link from "next/link";
 export default function ProjectsPage() {
   return (
      <div className="pt-[70px] left-4 right-4 space-y-6">
-      <Alert variant="destructive">
+      <Alert className="backdrop-blur-2xl bg-black/10 dark:bg-white/20 border border-black/20 dark:border-white/40 rounded-2xl shadow-[0_0_15px_rgba(0,0,0,0.2)] dark:shadow-[0_0_25px_rgba(255,255,255,0.25)] text-black dark:text-white">
 
         <AlertCircleIcon />
         <AlertDescription >
