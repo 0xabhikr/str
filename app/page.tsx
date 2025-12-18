@@ -74,8 +74,8 @@ export default function HomePage() {
 
           <div className="p-5 rounded-2xl bg-black/10 dark:bg-white/10 border border-black/20 dark:border-white/20">
             <div className="flex justify-between items-center">
-              <h3 className="text-lg font-semibold">Akamai Bypass Tool</h3>
-
+              <a href="/cybernote/blog1">
+              <h3 className="text-lg font-semibold">Akamai Bypass Tool</h3></a>
               <button
                 className="text-xs px-3 py-1 rounded-full 
                    bg-red-500/20 text-red-400 
