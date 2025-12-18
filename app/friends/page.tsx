@@ -20,7 +20,7 @@ export default function FriendsPage() {
           This site is under development
         </AlertDescription>
       </Alert>
-      <Card className="p-4 left-4 right-4 space-y-6 font-oxanium normal backdrop-blur-md bg-white/10 border border-white/20 shadow-md rounded-xl">
+      <Card className="w-full bg-black/10 dark:bg-white/15 rounded-3xl backdrop-blur-3xl border border-black/20 dark:border-white/30 shadow-[0_0_20px_rgba(0,0,0,0.25)] dark:shadow-[0_0_35px_rgba(255,255,255,0.22)] p-6 md:p-10 space-y-10 relative overflow-hidden text-black dark:text-white">
         <h1 className="text-3xl pt-4">Friends Links</h1>
         <p className="-mt-6">Here are some blog sites from familiar friends. Feel free to explore and connect with each other.</p>
         <em style={{ marginTop: -30 }} >“The following rankings are in no particular order:”</em>
