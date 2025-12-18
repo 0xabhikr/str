@@ -82,7 +82,7 @@ export default function Navbar() {
               </MenubarMenu>
               <MenubarMenu>
                 <MenubarTrigger asChild>
-                  <Link href="/cybernote" className="px-3 py-2 text-sm hover:text-primary !bg-transparent">Cyber Note</Link>
+                  <a href="https://blog.abhikr.site" className="px-3 py-2 text-sm hover:text-primary !bg-transparent">Cyber Note</a>
                 </MenubarTrigger>
               </MenubarMenu>
               <MenubarMenu>
