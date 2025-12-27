@@ -26,7 +26,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="
+      <div className="          
         fixed top-4 left-4 right-4 z-50
         flex items-center justify-between
         px-4 py-2 rounded-2xl
@@ -72,7 +72,7 @@ export default function Navbar() {
 
         <div className="flex items-center space-x-4">
 
-          
+
           <Menubar className="hidden md:flex backdrop-blur-md bg-white/10 border border-white/20 shadow-md">
             <div className="flex space-x-2">
               <MenubarMenu>
@@ -82,7 +82,7 @@ export default function Navbar() {
               </MenubarMenu>
               <MenubarMenu>
                 <MenubarTrigger asChild>
-                  <a href="https://blog.abhikr.site" className="px-3 py-2 text-sm hover:text-primary !bg-transparent">Cyber Note</a>
+                  <Link href="/cybernote" className="px-3 py-2 text-sm hover:text-primary !bg-transparent">Cyber Note</Link>
                 </MenubarTrigger>
               </MenubarMenu>
               <MenubarMenu>
@@ -98,14 +98,14 @@ export default function Navbar() {
             </div>
           </Menubar>
 
-          
+
           <img
             src="https://res.cloudinary.com/dgu3gae6k/image/upload/v1759546975/abhikr_uvns8e.png"
             alt="Logo"
             className="h-8 w-8"
           />
 
-          
+
           <Menubar className="hidden md:flex backdrop-blur-md bg-white/10 border border-white/20 shadow-md mr-[-1px]">
             <MenubarMenu>
               <div className="ml-4 min-w-[80px] flex items-center space-x-2">
@@ -119,14 +119,14 @@ export default function Navbar() {
             </MenubarMenu>
           </Menubar>
 
-          
+
           <Button variant="ghost" size="icon" className="md:hidden text-black dark:text-white" onClick={() => setSidebarOpen(true)}>
             <Menu />
           </Button>
         </div>
       </div>
 
-      
+
       {sidebarOpen && (
         <div className="fixed inset-0 z-50 md:hidden flex">
           <div className="fixed inset-0 bg-black/40 backdrop-blur-md" onClick={() => setSidebarOpen(false)}></div>
@@ -138,7 +138,7 @@ export default function Navbar() {
               </Button>
             </div>
 
-            
+
             <div className="relative">
               <Search className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500 dark:text-gray-300 w-4 h-4" />
               <Input
