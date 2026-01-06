@@ -4,6 +4,7 @@ import ISTClock from "@/components/ISTClock"
 import { Alert, AlertDescription } from "@/components/ui/alert"
 import { Card } from "@/components/ui/card"
 import { Separator } from "@/components/ui/separator"
+import { Tag } from 'lucide-react';
 import { faGithub, faLinkedin, faTelegram, faXTwitter } from "@fortawesome/free-brands-svg-icons"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
@@ -20,23 +21,53 @@ export default function AboutPage() {
         </AlertDescription>
       </Alert>
       <Card className="w-full bg-black/10 dark:bg-white/15 rounded-3xl backdrop-blur-3xl border border-black/20 dark:border-white/30 shadow-[0_0_20px_rgba(0,0,0,0.25)] dark:shadow-[0_0_35px_rgba(255,255,255,0.22)] p-6 md:p-10 space-y-10 relative overflow-hidden text-black dark:text-white">
-      <div className="p-5 rounded-2xl bg-black/10 dark:bg-white/10 border border-black/20 dark:border-white/20">
-            <div className="flex justify-between items-center">
-              <a href="/cybernote/blog1">
-              <h3 className="text-lg font-semibold">Akamai Bypass Tool</h3></a>
-              <button
-                className="text-xs px-3 py-1 rounded-full 
-                   bg-red-500/20 text-red-400 
-                   border border-red-500/30 
-                   hover:bg-red-500/30 transition">
-                Confidential
-              </button>
-            </div>
+        <div className="p-3 rounded-2xl bg-black/10 dark:bg-white/10 border border-black/20 dark:border-white/20">
+          <div className="flex justify-between items-center">
+            <a href="/cybernote/blog1">
 
-            <p className="opacity-80 text-sm mt-2">
-              Akamai security filters can be bypassed using controlled XSS payload execution.
-            </p>
+              <div className="flex items-center gap-4 text-sm opacity-80">
+                <div className="flex items-center gap-1">
+                  <h3 className="text-lg font-semibold">Akamai Bypass Tool</h3>
+                  <Tag />
+                </div>
+              </div>
+            </a>
+
+            <a href="/cybernote/blog1">
+
+              <button className="rounded-full px-3 py-2 backdrop-blur-2xl bg-black/10 dark:bg-white/20 border border-black/20 dark:border-white/40 shadow-[0_0_20px_rgba(0,0,0,0.2)] dark:shadow-[0_0_30px_rgba(255,255,255,0.25)] text-black dark:text-white">
+                Visit
+              </button></a>
           </div>
+
+          <p className="opacity-80 text-sm mt-2">
+            Akamai security filters can be bypassed using controlled XSS payload execution.
+          </p>
+        </div>
+        <div className="p-3 mt-[-40] rounded-2xl bg-black/10 dark:bg-white/10 border border-black/20 dark:border-white/20">
+          <div className="flex justify-between items-center">
+            <a href="/cybernote/blog2">
+
+              <div className="flex items-center gap-4 text-sm opacity-80">
+                <div className="flex items-center gap-1">
+                  <h3 className="text-lg font-semibold">Several drawing methods in Android game development</h3>
+                  <Tag />
+                </div>
+              </div>
+            </a>
+
+            <a href="/cybernote/blog2">
+
+              <button className="rounded-full px-3 py-2 backdrop-blur-2xl bg-black/10 dark:bg-white/20 border border-black/20 dark:border-white/40 shadow-[0_0_20px_rgba(0,0,0,0.2)] dark:shadow-[0_0_30px_rgba(255,255,255,0.25)] text-black dark:text-white">
+                Visit
+              </button></a>
+          </div>
+
+          <p className="opacity-80 text-sm mt-2">
+            Different techniques for rendering graphics in Android games, including Canvas, OpenGL ES, and Vulkan.
+          </p>
+        </div>
+
 
 
         <Separator className="border-t-2 mt-2" />

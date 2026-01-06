@@ -22,32 +22,32 @@ export default function Blog1() {
         </AlertDescription>
       </Alert>
       <Card className="w-full bg-black/10 dark:bg-white/15 rounded-3xl backdrop-blur-3xl border border-black/20 dark:border-white/30 shadow-[0_0_20px_rgba(0,0,0,0.25)] dark:shadow-[0_0_35px_rgba(255,255,255,0.22)] p-6 md:p-10 space-y-10 relative overflow-hidden text-black dark:text-white">
-        {/* Title */}
-      <div className="space-y-2">
-  <h1 className="text-3xl font-bold">
-    How I Built My First Blog Website
-  </h1>
-  <div className="flex items-center gap-4 text-sm opacity-80">
-    <div className="flex items-center gap-1">
-      <CalendarDays />
-      <span className="2xl">12/27/2025 By Abhikr</span>
-    </div>
-    <span>•</span>
-    <span>Beginner Friendly</span>
-  </div>
-</div>
+
+        <div className="space-y-2">
+          <h1 className="text-3xl font-bold">
+            How I Built My First Blog Website
+          </h1>
+          <div className="flex items-center gap-4 text-sm opacity-80">
+            <div className="flex items-center gap-1">
+              <CalendarDays />
+              <span className="2xl">12/27/2025 By Abhikr</span>
+            </div>
+            <span>•</span>
+            <span>Beginner Friendly</span>
+          </div>
+        </div>
 
 
         <Separator />
 
-        {/* Intro */}
+
         <p className="leading-relaxed">
           This is my first time creating a blog website. I wanted a simple,
           clean place where I can write about what I learn in programming,
           cybersecurity, and personal projects.
         </p>
 
-        {/* Why */}
+
         <div className="space-y-2">
           <h2 className="text-xl font-semibold">Why I Started a Blog</h2>
           <p className="leading-relaxed">
@@ -57,7 +57,6 @@ export default function Blog1() {
           </p>
         </div>
 
-        {/* Tech Stack */}
         <div className="space-y-3">
           <h2 className="text-xl font-semibold">Tech Stack</h2>
           <div className="flex flex-wrap gap-2">
@@ -68,7 +67,6 @@ export default function Blog1() {
           </div>
         </div>
 
-        {/* Folder Structure */}
         <div className="space-y-2">
           <h2 className="text-xl font-semibold">Folder Structure</h2>
           <p>This is how I organized my blog:</p>
@@ -89,7 +87,7 @@ export default function Blog1() {
           </pre>
         </div>
 
-        {/* Routing */}
+
         <div className="space-y-2">
           <h2 className="text-xl font-semibold">How Routing Works</h2>
           <p className="leading-relaxed">
@@ -104,7 +102,6 @@ export default function Blog1() {
           </p>
         </div>
 
-        {/* Styling */}
         <div className="space-y-2">
           <h2 className="text-xl font-semibold">Styling with ShadCN UI</h2>
           <p className="leading-relaxed">
@@ -114,7 +111,7 @@ export default function Blog1() {
           </p>
         </div>
 
-        {/* Lessons */}
+
         <div className="space-y-2">
           <h2 className="text-xl font-semibold">What I Learned</h2>
           <ul className="list-disc list-inside space-y-1">
@@ -127,7 +124,6 @@ export default function Blog1() {
 
         <Separator />
 
-        {/* Ending */}
         <p className="opacity-80">
           This blog is still under development, but I’m glad I started. If
           you’re new to web development, don’t wait — just start building.
@@ -136,7 +132,7 @@ export default function Blog1() {
         <p className="text-sm opacity-60">Thanks for reading 🚀</p>
 
 
-      <Separator className="border-t-2 mt-2" />
+        <Separator className="border-t-2 mt-2" />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
           <div>
             <h3 className="text-lg font-semibold mb-2">About Me</h3>
