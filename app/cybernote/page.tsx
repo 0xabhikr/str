@@ -4,7 +4,7 @@ import ISTClock from "@/components/ISTClock"
 import { Alert, AlertDescription } from "@/components/ui/alert"
 import { Card } from "@/components/ui/card"
 import { Separator } from "@/components/ui/separator"
-import { Tag } from 'lucide-react';
+import { ArrowUpRight, CalendarDays, Tag } from 'lucide-react';
 import { faGithub, faLinkedin, faTelegram, faXTwitter } from "@fortawesome/free-brands-svg-icons"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
@@ -24,20 +24,18 @@ export default function AboutPage() {
         <div className="p-3 rounded-2xl bg-black/10 dark:bg-white/10 border border-black/20 dark:border-white/20">
           <div className="flex justify-between items-center">
             <a href="/cybernote/blog1">
-
-              <div className="flex items-center gap-4 text-sm opacity-80">
-                <div className="flex items-center gap-1">
-                  <h3 className="text-lg font-semibold">Akamai Bypass Tool</h3>
-                  <Tag />
-                </div>
-              </div>
+              <h3 className="text-lg font-semibold flex items-center gap-1">Akami Bypass Tool
+                <Tag size={16} className="shrink-0" /></h3>
             </a>
 
             <a href="/cybernote/blog1">
 
               <button className="rounded-full px-3 py-2 backdrop-blur-2xl bg-black/10 dark:bg-white/20 border border-black/20 dark:border-white/40 shadow-[0_0_20px_rgba(0,0,0,0.2)] dark:shadow-[0_0_30px_rgba(255,255,255,0.25)] text-black dark:text-white">
-                Visit
-              </button></a>
+                <div className="flex items-center gap-1">
+                  Visit <ArrowUpRight />
+                </div>
+              </button>
+            </a>
           </div>
 
           <p className="opacity-80 text-sm mt-2">
@@ -48,19 +46,39 @@ export default function AboutPage() {
           <div className="flex justify-between items-center">
             <a href="/cybernote/blog2">
 
-              <div className="flex items-center gap-4 text-sm opacity-80">
-                <div className="flex items-center gap-1">
-                  <h3 className="text-lg font-semibold">Several drawing methods in Android game development</h3>
-                  <Tag />
-                </div>
-              </div>
+              <h3 className="text-lg font-semibold flex items-center gap-1">Drawing methods Android
+                <Tag size={16} className="shrink-0" /></h3>
             </a>
 
             <a href="/cybernote/blog2">
 
               <button className="rounded-full px-3 py-2 backdrop-blur-2xl bg-black/10 dark:bg-white/20 border border-black/20 dark:border-white/40 shadow-[0_0_20px_rgba(0,0,0,0.2)] dark:shadow-[0_0_30px_rgba(255,255,255,0.25)] text-black dark:text-white">
-                Visit
-              </button></a>
+                <div className="flex items-center gap-1">
+                  Visit <ArrowUpRight />
+                </div>
+              </button>
+            </a>
+          </div>
+
+          <p className="opacity-80 text-sm mt-2">
+            Different techniques for rendering graphics in Android games, including Canvas, OpenGL ES, and Vulkan.
+          </p>
+        </div>
+        <div className="p-3 mt-[-40] rounded-2xl bg-black/10 dark:bg-white/10 border border-black/20 dark:border-white/20">
+          <div className="flex justify-between items-center">
+            <a href="/cybernote/blog2">
+
+             <h3 className="text-lg font-semibold flex items-center gap-1">Drawing methods Android
+                <Tag size={16} className="shrink-0"/></h3>
+            </a>
+
+            <a href="/cybernote/blog2">
+              <button className="rounded-full px-3 py-2 backdrop-blur-2xl bg-black/10 dark:bg-white/20 border border-black/20 dark:border-white/40 shadow-[0_0_20px_rgba(0,0,0,0.2)] dark:shadow-[0_0_30px_rgba(255,255,255,0.25)] text-black dark:text-white">
+                <div className="flex items-center gap-1">
+                  Visit <ArrowUpRight />
+                </div>
+              </button>
+            </a>
           </div>
 
           <p className="opacity-80 text-sm mt-2">

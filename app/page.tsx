@@ -126,9 +126,7 @@ export default function HomePage() {
           </div>
         </div>
         <Separator className="border-black/20 dark:border-white/30 relative z-10 border-t-2" />
-
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-sm relative z-10">
-
           <div>
             <h3 className="text-lg font-semibold mb-2">About Me</h3>
             <p className="opacity-90">
