@@ -4,6 +4,7 @@ import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
+import { CalendarDays } from 'lucide-react';
 import ISTClock from "@/components/ISTClock";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faTelegram, faLinkedin, faXTwitter } from "@fortawesome/free-brands-svg-icons";
@@ -22,16 +23,20 @@ export default function Blog1() {
       </Alert>
       <Card className="w-full bg-black/10 dark:bg-white/15 rounded-3xl backdrop-blur-3xl border border-black/20 dark:border-white/30 shadow-[0_0_20px_rgba(0,0,0,0.25)] dark:shadow-[0_0_35px_rgba(255,255,255,0.22)] p-6 md:p-10 space-y-10 relative overflow-hidden text-black dark:text-white">
         {/* Title */}
-        <div className="space-y-2">
-          <h1 className="text-3xl font-bold">
-            How I Built My First Blog Website
-          </h1>
-          <div className="flex gap-2 text-sm opacity-80">
-            <span>By Abhikr</span>
-            <span>•</span>
-            <span>Beginner Friendly</span>
-          </div>
-        </div>
+      <div className="space-y-2">
+  <h1 className="text-3xl font-bold">
+    How I Built My First Blog Website
+  </h1>
+  <div className="flex items-center gap-4 text-sm opacity-80">
+    <div className="flex items-center gap-1">
+      <CalendarDays />
+      <span className="2xl">12/27/2025 By Abhikr</span>
+    </div>
+    <span>•</span>
+    <span>Beginner Friendly</span>
+  </div>
+</div>
+
 
         <Separator />
 
