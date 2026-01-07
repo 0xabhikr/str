@@ -24,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={oxanium.variable} suppressHydrationWarning>
+    <html lang="en" className={oxanium.variable} suppressHydrationWarning={false}>
       <body>
         <ThemeProvider
           attribute="class"
