@@ -64,7 +64,7 @@ export default function AboutPage() {
             Different techniques for rendering graphics in Android games, including Canvas, OpenGL ES, and Vulkan.
           </p>
         </div>
-        {/* <div className="p-3 mt-[-40] rounded-2xl bg-black/10 dark:bg-white/10 border border-black/20 dark:border-white/20">
+        <div className="p-3 mt-[-40] rounded-2xl bg-black/10 dark:bg-white/10 border border-black/20 dark:border-white/20">
           <div className="flex justify-between items-center">
             <a href="/cybernote/blog3">
 
@@ -84,7 +84,7 @@ export default function AboutPage() {
           <p className="opacity-80 text-sm mt-2">
             Different techniques for rendering graphics in Android games, including Canvas, OpenGL ES, and Vulkan.
           </p>
-        </div> */}
+        </div> 
 
 
 
