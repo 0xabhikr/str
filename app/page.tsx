@@ -42,7 +42,7 @@ export default function HomePage() {
               <li>Open source and Research</li>
               <li>Cybersecurity</li>
               <li>Skills: <img src="https://skillicons.dev/icons?i=python,vscode,sklearn,django,pytorch,linux," /></li>
-              <li>Learning: Español, 中文</li>
+              <li>Learning: Español</li>
             </ul>
           </div>
         </div>
