@@ -26,12 +26,10 @@ export default function AboutPage() {
       image: "https://zm3wlxe8zvibbtdu.public.blob.vercel-storage.com/misc/exp.jpg",
       link: "/cybernote/blog2",
     },
-    
   ];
 
   return (
     <div className="pt-[70px] left-4 right-4 space-y-6">
-
       <Alert className="backdrop-blur-2xl bg-black/10 dark:bg-white/20 border border-black/20 dark:border-white/40 rounded-2xl shadow-[0_0_15px_rgba(0,0,0,0.2)] dark:shadow-[0_0_25px_rgba(255,255,255,0.25)] text-black dark:text-white">
         <AlertCircleIcon />
         <AlertDescription>
@@ -44,12 +42,12 @@ export default function AboutPage() {
           {posts.map((post, index) => (
             <div
               key={index}
-              className={`flex items-start p-3 rounded-2xl bg-black/10 dark:bg-white/10 border border-black/20 dark:border-white/20 gap-4 overflow-hidden
-                ${index % 2 !== 0 ? "flex-row-reverse" : "flex-row"}`}>
+              className={`flex flex-col md:flex-row items-start p-3 rounded-2xl bg-black/10 dark:bg-white/10 border border-black/20 dark:border-white/20 gap-4 overflow-hidden
+                ${index % 2 !== 0 ? "md:flex-row-reverse" : "md:flex-row"}`}>
 
               <a
                 href={post.link}
-                className="relative w-[500px] h-[150px] flex-shrink-0 overflow-hidden rounded-xl"
+                className="relative w-full md:w-[500px] h-[150px] flex-shrink-0 overflow-hidden rounded-xl"
                 style={{
                   clipPath: index % 2 !== 0
                     ? "polygon(15% 0, 100% 0, 100% 100%, 0 100%)"
@@ -64,7 +62,7 @@ export default function AboutPage() {
                 />
               </a>
 
-              <div className={`flex-1 flex flex-col justify-between gap-2 ${index % 2 !== 0 ? "text-right" : ""}`}>
+              <div className={`flex-1 flex flex-col justify-between gap-2 ${index % 2 !== 0 ? "md:text-right" : ""}`}>
                 <div className="flex items-center justify-between">
                   <a href={post.link}>
                     <h3 className="text-lg font-semibold flex items-center gap-1">
@@ -89,7 +87,6 @@ export default function AboutPage() {
             </div>
           ))}
         </div>
-
 
         <Separator className="border-t-2 mt-2" />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
