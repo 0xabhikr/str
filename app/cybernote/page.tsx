@@ -38,9 +38,9 @@ export default function AboutPage() {
       </Alert>
 
       <Card className="w-full bg-black/10 dark:bg-white/15 rounded-3xl backdrop-blur-3xl border border-black/20 dark:border-white/30 shadow-[0_0_20px_rgba(0,0,0,0.25)] dark:shadow-[0_0_35px_rgba(255,255,255,0.22)] p-6 md:p-10 space-y-10 relative overflow-hidden text-black dark:text-white">
-      <h2 className="text-xl font-semibold mb-6 text-black dark:text-white">
-            CyberNote
-          </h2>
+        <h2 className="text-xl font-semibold mb-6 text-black dark:text-white">
+          CyberNote
+        </h2>
         <div className="space-y-6">
           {posts.map((post, index) => (
             <div
@@ -53,8 +53,8 @@ export default function AboutPage() {
                 className="relative w-full md:w-[500px] h-[150px] flex-shrink-0 overflow-hidden rounded-xl"
                 style={{
                   clipPath: index % 2 !== 0
-                    ? "polygon(15% 0, 100% 0, 100% 100%, 0 100%)"
-                    : "polygon(0 0, 100% 0, 85% 100%, 0% 100%)",
+                    ? "polygon(15% 0, 100% 0, 100% 100%, 0% 100%)"   // Reversed
+                    : "polygon(0 0, 100% 0, 90% 100%, 0% 100%)",    // Normal
                 }}
               >
                 <Image
