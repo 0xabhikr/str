@@ -21,7 +21,7 @@ export default function AboutPage() {
         </AlertDescription>
       </Alert>
       <Card className="w-full bg-black/10 dark:bg-white/15 rounded-3xl backdrop-blur-3xl border border-black/20 dark:border-white/30 shadow-[0_0_20px_rgba(0,0,0,0.25)] dark:shadow-[0_0_35px_rgba(255,255,255,0.22)] p-6 md:p-10 space-y-10 relative overflow-hidden text-black dark:text-white">
-        <div className="p-3 rounded-2xl bg-black/10 dark:bg-white/10 border border-black/20 dark:border-white/20">
+        {/* <div className="p-3 rounded-2xl bg-black/10 dark:bg-white/10 border border-black/20 dark:border-white/20">
           <div className="flex justify-between items-center">
             <a href="/cybernote/blog1">
               <h3 className="text-lg font-semibold flex items-center gap-1">Akami Bypass Tool
@@ -84,7 +84,7 @@ export default function AboutPage() {
           <p className="opacity-80 text-sm mt-2">
             Different techniques for rendering graphics in Android games, including Canvas, OpenGL ES, and Vulkan.
           </p>
-        </div> 
+        </div>  */}
 
 
 
@@ -108,7 +108,7 @@ export default function AboutPage() {
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-2">Contact</h3>
-            <p className="">Email: <a href="mailto:abhikr2026@proton.me" className="underline">abhikr2026@proton.me</a></p>
+            <p className="">Email: <a href="mailto:abhikr6714@outlook.com" className="underline">abhikr6714@outlook.com</a></p>
             <p className="">Telegram: <a href="https://t.me/AbhikrX" className="underline">AbhikrX</a></p>
             <div className="mt-2">
               <ISTClock></ISTClock>
@@ -123,7 +123,7 @@ export default function AboutPage() {
             <a href="https://t.me/AbhikrX" target="_blank" aria-label="Telegram"><FontAwesomeIcon icon={faTelegram} /></a>
             <a href="https://www.linkedin.com/in/0xabhikr" target="_blank" aria-label="LinkedIn"><FontAwesomeIcon icon={faLinkedin} /></a>
             <a href="https://x.com/Abhikr_X" target="_blank" aria-label="X"><FontAwesomeIcon icon={faXTwitter} /></a>
-            <a href="mailto:abhikr2026@proton.me" target="_blank" aria-label="Email"><FontAwesomeIcon icon={faEnvelope} /></a>
+            <a href="mailto:abhikr6714@outlook.com" target="_blank" aria-label="Email"><FontAwesomeIcon icon={faEnvelope} /></a>
           </div>
         </div>
       </Card>

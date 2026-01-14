@@ -22,7 +22,7 @@ export default function HomePage() {
 
       <div className="w-full bg-black/10 dark:bg-white/15 rounded-3xl backdrop-blur-3xl border border-black/20 dark:border-white/30 shadow-[0_0_20px_rgba(0,0,0,0.25)] dark:shadow-[0_0_35px_rgba(255,255,255,0.22)] p-6 md:p-10 space-y-10 relative overflow-hidden text-black dark:text-white">
         <div className="absolute inset-0 pointer-events-none rounded-3xl bg-gradient-to-br from-black/20 via-black/5 to-transparent dark:from-white/30 dark:via-white/5 dark:to-transparent opacity-40"></div>
-        <h2 className="text-4xl font-semibold relative z-10">Hi, Winter is Out.....</h2>
+        <h2 className="text-4xl font-semibold relative z-10">Hi 💐, Winter is Out.....</h2>
 
         <Separator className="border-black/20 dark:border-white/30 relative z-10 border-t-2 mt-[-10]" />
 
@@ -39,9 +39,9 @@ export default function HomePage() {
             <Separator className="border-black/20 dark:border-white/30 mb-4 border-t-2" />
 
             <ul className="list-disc pl-6 space-y-3 text-base opacity-90">
-              <li>Open source and Research</li>
+              <li>Open Source, Research</li>
               <li>Cybersecurity</li>
-              <li>Skills: <img src="https://skillicons.dev/icons?i=python,vscode,sklearn,django,pytorch,linux," /></li>
+              <li>Skills: <img src="https://skillicons.dev/icons?i=python,fastapi,react,ts,kali," /></li>
               <li>Learning: Español</li>
             </ul>
           </div>
@@ -65,7 +65,7 @@ export default function HomePage() {
             <a href="https://github.com/0xabhikr" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
             <a href="https://t.me/ABHIKR4NTX" target="_blank"><FontAwesomeIcon icon={faTelegram} /></a>
             <a href="https://x.com/Abhikr_X" target="_blank"><FontAwesomeIcon icon={faXTwitter} /></a>
-            <a href="mailto:abhikr2026@proton.me"><FontAwesomeIcon icon={faEnvelope} /></a>
+            <a href="mailto:abhikr6714@outlook.com"><FontAwesomeIcon icon={faEnvelope} /></a>
           </div>
         </div>
         <Separator className="border-black/20 dark:border-white/30 relative z-10 border-t-2" />
@@ -91,7 +91,7 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="p-5 rounded-2xl bg-black/10 dark:bg-white/10 border border-black/20 dark:border-white/20">
+          {/* <div className="p-5 rounded-2xl bg-black/10 dark:bg-white/10 border border-black/20 dark:border-white/20">
             <div className="flex justify-between items-center">
               <h3 className="text-lg font-semibold">Cyber Recon Toolkit</h3>
               <button
@@ -106,11 +106,11 @@ export default function HomePage() {
             <p className="opacity-80 text-sm mt-2">
               Lightweight OSINT + recon toolkit built with bash & python.
             </p>
-          </div>
+          </div> */}
 
           <div className="p-5 rounded-2xl bg-black/10 dark:bg-white/10 border border-black/20 dark:border-white/20">
             <div className="flex justify-between items-center">
-              <h3 className="text-lg font-semibold">AI Language Engine</h3>
+              <h3 className="text-lg font-semibold">PyChatApp</h3>
               <button
                 className="text-xs px-3 py-1 rounded-full 
                  bg-green-500/20 text-green-400 
@@ -121,7 +121,7 @@ export default function HomePage() {
             </div>
 
             <p className="opacity-80 text-sm mt-2">
-              Minimal transformer experiments for multilingual models.
+              Trying to implement webrtc with custom encryption methods.
             </p>
           </div>
         </div>
@@ -148,7 +148,7 @@ export default function HomePage() {
 
           <div>
             <h3 className="text-lg font-semibold mb-2">Contact</h3>
-            <p>Email: <a href="mailto:abhikr2026@proton.me" className="underline">abhikr2026@proton.me</a></p>
+            <p>Email: <a href="mailto:abhikr6714@outlook.com" className="underline">abhikr6714@outlook.com</a></p>
             <p>Telegram: <a href="https://t.me/ABHIKR4NTX" className="underline">ABHIKR4NTX</a></p>
             <div className="mt-2">
               <ISTClock />
@@ -167,7 +167,7 @@ export default function HomePage() {
             <a href="https://github.com/0xabhikr" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
             <a href="https://t.me/ABHIKR4NTX" target="_blank"><FontAwesomeIcon icon={faTelegram} /></a>
             <a href="https://x.com/Abhikr_X" target="_blank"><FontAwesomeIcon icon={faXTwitter} /></a>
-            <a href="mailto:abhikr2026@proton.me"><FontAwesomeIcon icon={faEnvelope} /></a>
+            <a href="mailto:abhikr6714@outlook.com"><FontAwesomeIcon icon={faEnvelope} /></a>
           </div>
         </div>
 

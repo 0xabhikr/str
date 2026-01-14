@@ -42,7 +42,7 @@ export default function ProjectsPage() {
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-2">Contact</h3>
-            <p className="">Email: <a href="mailto:abhikr2026@proton.me" className="underline">abhikr2026@proton.me</a></p>
+            <p className="">Email: <a href="mailto:abhikr6714@outlook.com" className="underline">abhikr6714@outlook.com</a></p>
             <p className="">Telegram: <a href="https://t.me/AbhikrX" className="underline">AbhikrX</a></p>
             <div className="mt-2">
               <ISTClock></ISTClock>
@@ -57,7 +57,7 @@ export default function ProjectsPage() {
             <a href="https://t.me/AbhikrX" target="_blank" aria-label="Telegram"><FontAwesomeIcon icon={faTelegram} /></a>
             <a href="https://www.linkedin.com/in/0xabhikr" target="_blank" aria-label="LinkedIn"><FontAwesomeIcon icon={faLinkedin} /></a>
             <a href="https://x.com/Abhikr_X" target="_blank" aria-label="X"><FontAwesomeIcon icon={faXTwitter} /></a>
-            <a href="mailto:abhikr2026@proton.me" target="_blank" aria-label="Email"><FontAwesomeIcon icon={faEnvelope} /></a>
+            <a href="mailto:abhikr6714@outlook.com" target="_blank" aria-label="Email"><FontAwesomeIcon icon={faEnvelope} /></a>
           </div>
         </div>
       </Card>
