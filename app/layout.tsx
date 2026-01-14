@@ -1,11 +1,13 @@
 import { ThemeProvider } from "@/components/theme-provider";
 import Navbar from "@/components/Navbar";
 import SnowfallEffect from "@/components/SnowfallEffect"; 
+
+
 import "./globals.css";
 import { Oxanium } from "next/font/google";
 
 export const metadata = {
-  title: "Abhikr", 
+  title: "Abhikr's Notebook", 
   description: "",
   icons: {
     icon: "https://res.cloudinary.com/dgu3gae6k/image/upload/v1759546975/abhikr_uvns8e.png",
@@ -34,6 +36,8 @@ export default function RootLayout({
         >
           <Navbar />
           <SnowfallEffect/>
+        
+
           <main className="p-4">
             {children}
           </main>

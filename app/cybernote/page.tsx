@@ -21,7 +21,7 @@ export default function AboutPage() {
         </AlertDescription>
       </Alert>
       <Card className="w-full bg-black/10 dark:bg-white/15 rounded-3xl backdrop-blur-3xl border border-black/20 dark:border-white/30 shadow-[0_0_20px_rgba(0,0,0,0.25)] dark:shadow-[0_0_35px_rgba(255,255,255,0.22)] p-6 md:p-10 space-y-10 relative overflow-hidden text-black dark:text-white">
-        {/* <div className="p-3 rounded-2xl bg-black/10 dark:bg-white/10 border border-black/20 dark:border-white/20">
+        <div className="p-3 rounded-2xl bg-black/10 dark:bg-white/10 border border-black/20 dark:border-white/20">
           <div className="flex justify-between items-center">
             <a href="/cybernote/blog1">
               <h3 className="text-lg font-semibold flex items-center gap-1">Akami Bypass Tool
@@ -42,7 +42,7 @@ export default function AboutPage() {
             Akamai security filters can be bypassed using controlled XSS payload execution.
           </p>
         </div>
-        <div className="p-3 mt-[-40] rounded-2xl bg-black/10 dark:bg-white/10 border border-black/20 dark:border-white/20">
+        {/* <div className="p-3 mt-[-40] rounded-2xl bg-black/10 dark:bg-white/10 border border-black/20 dark:border-white/20">
           <div className="flex justify-between items-center">
             <a href="/cybernote/blog2">
 

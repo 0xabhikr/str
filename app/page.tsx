@@ -41,7 +41,7 @@ export default function HomePage() {
             <ul className="list-disc pl-6 space-y-3 text-base opacity-90">
               <li>Open Source, Research</li>
               <li>Cybersecurity</li>
-              <li>Skills: <img src="https://skillicons.dev/icons?i=python,fastapi,react,ts,kali," /></li>
+              <li>Skills: <img src="https://skillicons.dev/icons?i=python,fastapi,selenium,react,ts,kali," /></li>
               <li>Learning: Español</li>
             </ul>
           </div>
