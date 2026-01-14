@@ -18,7 +18,7 @@ const projects = [
     description: "My personal website showcasing projects and blogs.",
     tech: "Next.js · Tailwind · Vercel",
     link: "https://github.com/0xabhikr",
-    image: "https://zm3wlxe8zvibbtdu.public.blob.vercel-storage.com/misc/tst1.jpg",
+    image: "https://zm3wlxe8zvibbtdu.public.blob.vercel-storage.com/misc/exp.jpg",
   },
   
 ];
