@@ -46,7 +46,7 @@ export default function FriendsPage() {
             </a>
           </li>
           <li>
-            <a href="zegoxry.icu" className=" hover:underline" target="_blank" rel="noopener noreferrer">
+            <a href="http://zegoxry.icu/" className=" hover:underline" target="_blank" rel="noopener noreferrer">
               Zegoxry
             </a>
           </li>
