@@ -45,6 +45,11 @@ export default function FriendsPage() {
               Sarthak Sidhant
             </a>
           </li>
+          <li>
+            <a href="zegoxry.icu" className=" hover:underline" target="_blank" rel="noopener noreferrer">
+              Zegoxry
+            </a>
+          </li>
         </ul>
         <Separator className="border-t-2 mt-2" />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
