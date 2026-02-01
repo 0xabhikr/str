@@ -18,6 +18,9 @@ import {
   MenubarMenu,
   MenubarTrigger,
 } from "@/components/ui/menubar"
+import { Avatar, AvatarFallback, AvatarImage } from "@radix-ui/react-avatar"
+
+
 
 export default function Navbar() {
   const { setTheme } = useTheme()
@@ -70,6 +73,8 @@ export default function Navbar() {
           </div>
         </div>
 
+        
+
         <div className="flex items-center space-x-4">
 
 
@@ -103,23 +108,27 @@ export default function Navbar() {
             </div>
           </Menubar>
 
-
-          <img
-            src="https://res.cloudinary.com/dgu3gae6k/image/upload/v1759546975/abhikr_uvns8e.png"
-            alt="Logo"
-            className="h-8 w-8"
-          />
+          <Avatar className="h-8 w-8">
+            <AvatarImage src="https://res.cloudinary.com/dgu3gae6k/image/upload/v1759546975/abhikr_uvns8e.png" alt="@Abhikr" />
+            <AvatarFallback>Ab</AvatarFallback>
+          </Avatar>
+          {/* <Menubar className="hidden md:flex backdrop-blur-md bg-white/10 border border-white/20 shadow-md">
+            <MenubarMenu>
+              <MenubarTrigger asChild>
+                <Link href="/signup" className="px-3 py-2 text-sm hover:text-primary !bg-transparent">SignUp/Login</Link>
+              </MenubarTrigger>
+            </MenubarMenu>
+          </Menubar> */}
 
 
           <Menubar className="hidden md:flex backdrop-blur-md bg-white/10 border border-white/20 shadow-md mr-[-1px]">
             <MenubarMenu>
               <div className="ml-4 min-w-[80px] flex items-center space-x-2">
                 <h4 className="text-base font-semibold">Abhikr |</h4>
-                <img
-                  src="https://res.cloudinary.com/dgu3gae6k/image/upload/v1759546975/abhikr_uvns8e.png"
-                  alt="Logo"
-                  className="h-8 w-8"
-                />
+                <Avatar className="h-8 w-8">
+                  <AvatarImage src="https://res.cloudinary.com/dgu3gae6k/image/upload/v1759546975/abhikr_uvns8e.png" alt="@Abhikr" />
+                  <AvatarFallback>Ab</AvatarFallback>
+                </Avatar>
               </div>
             </MenubarMenu>
           </Menubar>
@@ -160,6 +169,7 @@ export default function Navbar() {
               <Link href="https://blog.abhikr.site" onClick={() => setSidebarOpen(false)}>Cyber Note</Link>
               <Link href="/projects" onClick={() => setSidebarOpen(false)}>Projects</Link>
               <Link href="/friends" onClick={() => setSidebarOpen(false)}>Friends</Link>
+              <Link href="/signup" onClick={() => setSidebarOpen(false)}>SignUp/Login</Link>
             </nav>
 
             <div className="absolute bottom-4 text-sm text-black/70 dark:text-white/50">
