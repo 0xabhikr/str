@@ -39,8 +39,8 @@ export default function HomePage() {
 
             <ul className="list-disc pl-6 space-y-3 text-base opacity-90">
               <li>Open Source, Research</li>
-              <li>Cybersecurity</li>
-              <li>Skills: <img src="https://skillicons.dev/icons?i=python,fastapi,selenium,react,ts,kali," /></li>
+              <li>Cybersecurity, Crypto</li>
+              <li>Skills: <img src="https://skillicons.dev/icons?i=kotlin,swift,python,react,debian" /></li>
               <li>Learning: Español</li>
             </ul>
           </div>
@@ -109,7 +109,7 @@ export default function HomePage() {
 
           <div className="p-5 rounded-2xl bg-black/10 dark:bg-white/10 border border-black/20 dark:border-white/20">
             <div className="flex justify-between items-center">
-              <h3 className="text-lg font-semibold">PyChatApp</h3>
+              <h3 className="text-lg font-semibold">KrispQT</h3>
               <button
                 className="text-xs px-3 py-1 rounded-full 
                  bg-green-500/20 text-green-400 
@@ -120,7 +120,7 @@ export default function HomePage() {
             </div>
 
             <p className="opacity-80 text-sm mt-2">
-              Trying to implement webrtc with custom encryption methods.
+              Creating a New Programming language.
             </p>
           </div>
         </div>
