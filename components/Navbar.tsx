@@ -18,9 +18,10 @@ import {
   MenubarMenu,
   MenubarTrigger,
 } from "@/components/ui/menubar"
-import { Avatar, AvatarFallback, AvatarImage } from "@radix-ui/react-avatar"
 
-
+// ✅ change: use shadcn Avatar + LottieAvatar
+import { Avatar, AvatarFallback } from "@/components/ui/avatar"
+import LottieAvatar from "@/components/LottieAvatar"
 
 export default function Navbar() {
   const { setTheme } = useTheme()
@@ -73,10 +74,7 @@ export default function Navbar() {
           </div>
         </div>
 
-        
-
         <div className="flex items-center space-x-4">
-
 
           <Menubar className="hidden md:flex backdrop-blur-md bg-white/10 border border-white/20 shadow-md">
             <div className="flex space-x-2">
@@ -108,10 +106,12 @@ export default function Navbar() {
             </div>
           </Menubar>
 
-          <Avatar className="h-8 w-8">
-            <AvatarImage src="https://res.cloudinary.com/dgu3gae6k/image/upload/v1759546975/abhikr_uvns8e.png" alt="@Abhikr" />
-            <AvatarFallback>Ab</AvatarFallback>
+          
+          <Avatar className="h-8 w-8 overflow-hidden">
+            <LottieAvatar path="/emoji.json" size={32} className="h-full w-full" />
+            
           </Avatar>
+
           {/* <Menubar className="hidden md:flex backdrop-blur-md bg-white/10 border border-white/20 shadow-md">
             <MenubarMenu>
               <MenubarTrigger asChild>
@@ -120,26 +120,22 @@ export default function Navbar() {
             </MenubarMenu>
           </Menubar> */}
 
-
           <Menubar className="hidden md:flex backdrop-blur-md bg-white/10 border border-white/20 shadow-md mr-[-1px]">
             <MenubarMenu>
               <div className="ml-4 min-w-[80px] flex items-center space-x-2">
                 <h4 className="text-base font-semibold">Abhikr |</h4>
-                <Avatar className="h-8 w-8">
-                  <AvatarImage src="https://res.cloudinary.com/dgu3gae6k/image/upload/v1759546975/abhikr_uvns8e.png" alt="@Abhikr" />
-                  <AvatarFallback>Ab</AvatarFallback>
+                <Avatar className="h-8 w-8 overflow-hidden">
+                  <LottieAvatar path="/emoji.json" size={32} className="h-full w-full" />
                 </Avatar>
               </div>
             </MenubarMenu>
           </Menubar>
-
 
           <Button variant="ghost" size="icon" className="md:hidden text-black dark:text-white" onClick={() => setSidebarOpen(true)}>
             <Menu />
           </Button>
         </div>
       </div>
-
 
       {sidebarOpen && (
         <div className="fixed inset-0 z-50 md:hidden flex">
@@ -151,7 +147,6 @@ export default function Navbar() {
                 <X />
               </Button>
             </div>
-
 
             <div className="relative">
               <Search className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500 dark:text-gray-300 w-4 h-4" />
@@ -169,7 +164,7 @@ export default function Navbar() {
               <Link href="https://blog.abhikr.site" onClick={() => setSidebarOpen(false)}>Cyber Note</Link>
               <Link href="/projects" onClick={() => setSidebarOpen(false)}>Projects</Link>
               <Link href="/friends" onClick={() => setSidebarOpen(false)}>Friends</Link>
-              <Link href="/signup" onClick={() => setSidebarOpen(false)}>SignUp/Login</Link>
+              {/* <Link href="/signup" onClick={() => setSidebarOpen(false)}>SignUp/Login</Link> */}
             </nav>
 
             <div className="absolute bottom-4 text-sm text-black/70 dark:text-white/50">
