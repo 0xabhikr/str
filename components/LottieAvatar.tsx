@@ -10,7 +10,7 @@ type Props = {
 };
 
 export default function LottieAvatar({
-  path = "/emoji.json",
+  path = "https://raw.githubusercontent.com/abhikr2026/image_dumpping/main/MainSakura.json",
   size = 32,
   className,
 }: Props) {
