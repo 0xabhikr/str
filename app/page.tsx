@@ -8,7 +8,6 @@ import { faGithub, faTelegram, faXTwitter } from '@fortawesome/free-brands-svg-i
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { AlertCircleIcon } from 'lucide-react';
 import ISTClock from '../components/ISTClock';
-import { Menubar, MenubarMenu } from '@/components/ui/menubar';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -18,11 +17,11 @@ export default function HomePage() {
       <Alert className="backdrop-blur-2xl bg-black/10 dark:bg-white/20 border border-black/20 dark:border-white/40 rounded-2xl shadow-[0_0_15px_rgba(0,0,0,0.2)] dark:shadow-[0_0_25px_rgba(255,255,255,0.25)] text-black dark:text-white">
         <AlertCircleIcon className="mr-2" />
         <AlertDescription>This site is under development</AlertDescription>
-        </Alert>
+      </Alert>
 
       <div className="w-full bg-black/10 dark:bg-white/15 rounded-3xl backdrop-blur-3xl border border-black/20 dark:border-white/30 shadow-[0_0_20px_rgba(0,0,0,0.25)] dark:shadow-[0_0_35px_rgba(255,255,255,0.22)] p-6 md:p-10 space-y-10 relative overflow-hidden text-black dark:text-white">
         <div className="absolute inset-0 pointer-events-none rounded-3xl bg-gradient-to-br from-black/20 via-black/5 to-transparent dark:from-white/30 dark:via-white/5 dark:to-transparent opacity-40"></div>
-        <h2 className="text-4xl font-semibold relative z-10">Hi 💐, Winter is coming to an end...</h2>
+        <h2 className="text-4xl font-semibold relative z-10">Hi 🌸, Winter is coming to an end...</h2>
 
         <Separator className="border-black/20 dark:border-white/30 relative z-10 border-t-2 mt-[-10]" />
 
@@ -76,7 +75,7 @@ export default function HomePage() {
           <div className="p-5 rounded-2xl bg-black/10 dark:bg-white/10 border border-black/20 dark:border-white/20">
             <div className="flex justify-between items-center">
               <a href="/cybernote/blog1">
-              <h3 className="text-lg font-semibold">Akamai Bypass Tool</h3></a>
+                <h3 className="text-lg font-semibold">Akamai Bypass Tool</h3></a>
               <button
                 className="text-xs px-3 py-1 rounded-full 
                    bg-red-500/20 text-red-400 
