@@ -9,7 +9,7 @@ import { Oxanium } from "next/font/google";
 export const metadata = {
   title: "Abhikr's Notebook",
   icons: {
-    icon: "https://raw.githubusercontent.com/abhikr2026/image_dumpping/main/favicon.png",
+    icon: "/favicon.png",
   },
 };
 
